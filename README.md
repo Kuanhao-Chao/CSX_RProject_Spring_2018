@@ -12,6 +12,7 @@
 * At home
   1. Finish homework
   2. Think about the aim that I want to analyze
+  3. Learn R basic syntax
 
 ### week_2
 
