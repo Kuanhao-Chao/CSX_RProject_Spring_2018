@@ -7,9 +7,9 @@ It is my first time learning R~ Hope everything will be fine.
 I really enjoy myself making some cool projects~
 Let's work hard and "stick to R" !*
 
+## Progress
+### week_1
 
-## week_1
-### Progress
 * In class
   1. Install R and R studio
   2. Finish course_1 exercise
@@ -20,7 +20,6 @@ Let's work hard and "stick to R" !*
   1. Finish homework
   2. Think about what to do for my final project
   3. Learn R basic syntax
-## R_資料科學程式設計
   
 ### week_2
 * Before class
