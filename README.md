@@ -2,9 +2,10 @@
 > **106-2 data analysis course**
 
 ## Introduce Myself
-*Hello~ My name is 趙冠豪 ( Howard Chao ). It is my first time learning R~ Hope everything will be fine.
+*Hello~ My name is 趙冠豪 ( Howard Chao ).
+It is my first time learning R~ Hope everything will be fine.
 I really enjoy myself making some cool projects~
-Let's work hard to stick to it !***
+Let's work hard to stick to it !*
 
 
 ## week_1
