@@ -25,6 +25,7 @@ Let's work hard and "stick to R" !*
 * Before class
   1. Read class ptt
   2. hw_1 revision
+  3. Download the week_2 file
 
 * In class
 
