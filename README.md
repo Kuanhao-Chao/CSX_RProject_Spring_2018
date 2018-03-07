@@ -1,33 +1,20 @@
-# CSX_RProject_Spring_2018
-> **106-2 data analysis course**
-
-## Introduce Myself
-*Hello~ My name is 趙冠豪 ( Howard Chao ).
-It is my first time learning R~ Hope everything will be fine.
-I really enjoy myself making some cool projects~
-Let's work hard and "stick to R" !*
-
-
-## week_1
-### Progress
-* In class
-  1. Install R and R studio
-  2. Finish course_1 exercise
-  3. Do part of hw_1
-  4. Learn R basic syntax
-  
-* At home
-  1. Finish homework
-  2. Think about what to do for my final project
-  3. Learn R basic syntax
+## R_資料科學程式設計
 
 ### week_2
-* Before class
-  1. Read class ptt
-  2. hw_1 revision
 
-* In class
+- course_2
+    - practice_1.R
+    - practice_1_answer.R
+    - practice_2.R
+    - practice_2_answer.R
+    - practice_3.R
+    - crawler_example
 
+- task_2_example
+    - PChomeRCrawler.html
+    - PChomeRCrawler.r
+    - PChomeRCrawler.Rmd
 
-
-
+- week_2任務
+    - 建立一命名為 `week_2(or task_2, hw_2)`的資料夾。
+    - 完成一支網站爬蟲上傳至資料夾中，繳交三種類型檔案(.R, .Rmd, .html)。 
