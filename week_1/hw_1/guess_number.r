@@ -10,7 +10,8 @@ random_number <- sample(0:9, 4)
 #}
 
 readInput <- function(){
-  n <- readline(prompt = "請輸入猜測數字：")
+  cat("請輸入猜測數字：");
+  n <- readLines('stdin', n=1);
   counter <<- counter + 1
   input_number <<- n
   return(input_number)
@@ -40,7 +41,8 @@ while(flag){
       }
     }
   }
-  print(paste(a_count, 'A, ', b_count, 'B'))
+  cat(paste(a_count, 'A, ', b_count, 'B'))
+  cat('\n')
   if(a_count == 4 && b_count == 0){
     flag <<- FALSE 
   }

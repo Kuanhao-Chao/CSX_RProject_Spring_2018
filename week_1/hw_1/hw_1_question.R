@@ -73,10 +73,11 @@ readInput <- function(){
 
 while(1){
   readInput()
-  if( (ans %% 4 == 0 && ans %% 100 != 0) || (ans %% 400 == 0) ){
+  if(ans == "exit"){
     print("是閏年")
-  }
-  else{
+  }else if( (ans %% 4 == 0 && ans %% 100 != 0) || (ans %% 400 == 0)){
+    break 
+  }else{
     print("是平年")
   }
 }
