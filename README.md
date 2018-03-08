@@ -28,15 +28,17 @@ Let's work hard and "stick to R" !*
 
 * In class
   1. git pull the latest week_2 file
-  2. add the `PChomeRCrawler.html`
+  2. Finsish course_2 practice
+  3. Learn R web crawling
+  3. add the `PChomeRCrawler.html` to README.md
     * steps
       1. go to your repository
-      2. press setting 
+      2. press setting in the top navigation bar
       3. Pull down to **GitHub Pages** and change to master branch(under source)
       4. Press save
-      5. You can get the url ex.`https://howardchao.github.io/CSX_RProject_Spring_2018/`
-      6. Add the html file to your url ex. `https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_example/PChomeRCrawler.html`
+      5. You can get the url under **GitHub Pages** ex.`https://howardchao.github.io/CSX_RProject_Spring_2018/`
+      6. Add the html file location to your url ex. `https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_example/PChomeRCrawler.html`
       7. Add the url to README.md
       8. Finished!!
-  
+ 
   https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_example/PChomeRCrawler.html
