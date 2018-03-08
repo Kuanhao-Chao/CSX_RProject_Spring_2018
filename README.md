@@ -23,8 +23,10 @@ Let's work hard and "stick to R" !*
   3. Learn R basic syntax
   
 * week_1 notebook
-  [Basic R syntax notebook html](https://howardchao.github.io/CSX_RProject_Spring_2018/week_1/self_practice_1/Basic_practice.html)
-  [hw_1 guess number notebook html](https://howardchao.github.io/CSX_RProject_Spring_2018/week_1/hw_1/guess_number_R_notebook.html) 
+
+[Basic R syntax notebook html](https://howardchao.github.io/CSX_RProject_Spring_2018/week_1/self_practice_1/Basic_practice.html)
+
+[hw_1 guess number notebook html](https://howardchao.github.io/CSX_RProject_Spring_2018/week_1/hw_1/guess_number_R_notebook.html) 
 
 ---
   
@@ -52,9 +54,10 @@ Let's work hard and "stick to R" !*
   1. Generate hw_1 notebook & Revision
  
 * week_2 notebook
-  [teacher's crawler html](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_example/PChomeRCrawler.html)
-  
-  [my html crawler file](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/practice_3.html)
+
+[teacher's crawler html](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_example/PChomeRCrawler.html)
+
+[my html crawler file](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/practice_3.html)
   
   ---
   
