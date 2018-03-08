@@ -41,4 +41,5 @@ Let's work hard and "stick to R" !*
       7. Add the url to README.md
       8. Finished!!
  
-  https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_example/PChomeRCrawler.html
+  teacher's crawler html: https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_example/PChomeRCrawler.html
+  my html crawler file: https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/practice_3.html
