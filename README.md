@@ -52,12 +52,15 @@ Let's work hard and "stick to R" !*
  
 * At home
   1. Generate hw_1 notebook & Revision
- 
+  2. Learn rvest web crawling
+  2. Make a self-reference *R_crawler* document of **rvest**
+  3. Make a crawler notebok: crawling IMDb for the top-rated movies in 2017.(and draw a bar chart)
+  
 * week_2 notebook
 
-[teacher's crawler html](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_example/PChomeRCrawler.html)
+[self rvest R_crawler document](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler%20document.html)
 
-[my html crawler file](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/practice_3.html)
+[my IMDb movie crawler file](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler_web.html)
   
   ---
   
