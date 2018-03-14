@@ -47,7 +47,7 @@ Let's work hard and "stick to R" !*
   3. Make a self-reference *R_crawler* document of **rvest**
   4. Make a crawler notebok: crawling IMDb for the top-rated movies in 2017.(and draw a bar chart)
   5. Make a self-reference *R_crawler* document of **httr**
-  6. Crawl PTT, Send keyword to google, try to log into gmail/github (fail)
+  6. Crawl PTT, Send keyword to google, try to log into gmail/github (fail)
   
 * week_2 notebook
 
