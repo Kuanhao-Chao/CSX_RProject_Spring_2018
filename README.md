@@ -50,9 +50,8 @@ Let's work hard and "stick to R" !*
   6. Crawl PTT, Send keyword to google, try to log into gmail/github (fail)
   
 * week_2 notebook
-[In course rvest practice](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_practice_crawler.html)
 
-[self rvest R document](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler_rvest_document.html）
+[In course rvest practice](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_practice_crawler.html)
 
 [self rvest R document](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler_rvest_document.html)
 
@@ -64,3 +63,5 @@ Let's work hard and "stick to R" !*
   ---
   
 ### week_3
+* Before class
+  1. Read class ptt
