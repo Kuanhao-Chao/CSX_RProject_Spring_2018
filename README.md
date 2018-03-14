@@ -53,8 +53,9 @@ Let's work hard and "stick to R" !*
 * At home
   1. Generate hw_1 notebook & Revision
   2. Learn rvest web crawling
-  2. Make a self-reference *R_crawler* document of **rvest**
-  3. Make a crawler notebok: crawling IMDb for the top-rated movies in 2017.(and draw a bar chart)
+  3. Make a self-reference *R_crawler* document of **rvest**
+  4. Make a crawler notebok: crawling IMDb for the top-rated movies in 2017.(and draw a bar chart)
+  5. Make a self-reference *R_crawler* document of **httr**
   
 * week_2 notebook
 
