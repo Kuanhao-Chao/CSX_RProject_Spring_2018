@@ -11789,7 +11789,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[246]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># install showtext</span>
@@ -11807,7 +11807,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[178]:</div>
+<div class="prompt input_prompt">In&nbsp;[247]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>IMDb_movie_url <span class="o">&lt;-</span> read_html<span class="p">(</span><span class="s">&quot;http://www.imdb.com/list/ls058982125/?sort=user_rating,desc&amp;st_dt=&amp;mode=detail&amp;page=1&quot;</span><span class="p">)</span>
@@ -11820,7 +11820,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[179]:</div>
+<div class="prompt input_prompt">In&nbsp;[248]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>movie_name_list <span class="o">&lt;-</span> IMDb_movie_url <span class="o">%&gt;%</span>
@@ -11835,7 +11835,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[180]:</div>
+<div class="prompt input_prompt">In&nbsp;[249]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kp">length</span><span class="p">(</span>movie_name_list<span class="p">)</span>
@@ -11867,7 +11867,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[181]:</div>
+<div class="prompt input_prompt">In&nbsp;[250]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>movie_rate_list <span class="o">&lt;-</span> IMDb_movie_url <span class="o">%&gt;%</span> 
@@ -11883,7 +11883,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[182]:</div>
+<div class="prompt input_prompt">In&nbsp;[251]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kp">length</span><span class="p">(</span>movie_rate_list<span class="p">)</span>
@@ -11915,7 +11915,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[221]:</div>
+<div class="prompt input_prompt">In&nbsp;[252]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>movie_vote_list <span class="o">&lt;-</span> IMDb_movie_url <span class="o">%&gt;%</span>
@@ -11950,7 +11950,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[222]:</div>
+<div class="prompt input_prompt">In&nbsp;[253]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>movie_vote_list_revise <span class="o">&lt;-</span> movie_vote_list<span class="p">[</span><span class="m">4</span><span class="o">:</span><span class="m">103</span><span class="p">]</span>
@@ -11963,7 +11963,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[240]:</div>
+<div class="prompt input_prompt">In&nbsp;[254]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kp">length</span><span class="p">(</span>movie_vote_list_revise<span class="p">)</span>
@@ -11995,7 +11995,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[243]:</div>
+<div class="prompt input_prompt">In&nbsp;[255]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>movie_time_list <span class="o">&lt;-</span> IMDb_movie_url <span class="o">%&gt;%</span> 
@@ -12010,7 +12010,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[247]:</div>
+<div class="prompt input_prompt">In&nbsp;[256]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kp">length</span><span class="p">(</span>movie_time_list<span class="p">)</span>
@@ -12042,7 +12042,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[250]:</div>
+<div class="prompt input_prompt">In&nbsp;[244]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>df_movie <span class="o">=</span> <span class="kt">data.frame</span><span class="p">(</span>movie_name_list<span class="p">,</span> movie_rate_list<span class="p">,</span> movie_vote_list_revise<span class="p">,</span> movie_time_list<span class="p">)</span>
@@ -12055,10 +12055,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[251]:</div>
+<div class="prompt input_prompt">In&nbsp;[257]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span>df_movie_vote
+<div class=" highlight hl-r"><pre><span></span>df_movie
 </pre></div>
 
 </div>
@@ -12079,67 +12079,67 @@ div#notebook {
 <table>
 <thead><tr><th scope=col>movie_name_list</th><th scope=col>movie_rate_list</th><th scope=col>movie_vote_list_revise</th><th scope=col>movie_time_list</th></tr></thead>
 <tbody>
-	<tr><td>Coco                                   </td><td>8.5                                    </td><td>127,025                                </td><td>105 min                                </td></tr>
-	<tr><td>Blade Runner 2049                      </td><td>8.2                                    </td><td>261,103                                </td><td>164 min                                </td></tr>
-	<tr><td>Logan                                  </td><td>8.1                                    </td><td>459,249                                </td><td>137 min                                </td></tr>
-	<tr><td>Paddington 2                           </td><td>8.1                                    </td><td>16,462                                 </td><td>104 min                                </td></tr>
-	<tr><td>Thor: Ragnarok                         </td><td>8.0                                    </td><td>266,975                                </td><td>130 min                                </td></tr>
-	<tr><td>Dunkirk                                </td><td>8.0                                    </td><td>364,019                                </td><td>106 min                                </td></tr>
-	<tr><td>Wind River                             </td><td>7.8                                    </td><td>107,296                                </td><td>107 min                                </td></tr>
-	<tr><td>Get Out                                </td><td>7.7                                    </td><td>276,621                                </td><td>104 min                                </td></tr>
-	<tr><td>Guardians of the Galaxy Vol. 2         </td><td>7.7                                    </td><td>349,625                                </td><td>136 min                                </td></tr>
-	<tr><td>Baby Driver                            </td><td>7.7                                    </td><td>277,051                                </td><td>112 min                                </td></tr>
-	<tr><td>I, Tonya                               </td><td>7.6                                    </td><td>57,260                                 </td><td>120 min                                </td></tr>
-	<tr><td>The Disaster Artist                    </td><td>7.6                                    </td><td>60,246                                 </td><td>104 min                                </td></tr>
-	<tr><td>It                                     </td><td>7.5                                    </td><td>255,003                                </td><td>135 min                                </td></tr>
-	<tr><td>Wonder Woman                           </td><td>7.5                                    </td><td>385,727                                </td><td>141 min                                </td></tr>
-	<tr><td>Spider-Man: Homecoming                 </td><td>7.5                                    </td><td>290,015                                </td><td>133 min                                </td></tr>
-	<tr><td>Molly's Game                           </td><td>7.5                                    </td><td>35,513                                 </td><td>140 min                                </td></tr>
-	<tr><td>War for the Planet of the Apes         </td><td>7.5                                    </td><td>160,239                                </td><td>140 min                                </td></tr>
-	<tr><td>John Wick: Chapter 2                   </td><td>7.5                                    </td><td>218,836                                </td><td>122 min                                </td></tr>
-	<tr><td>Star Wars: Episode VIII - The Last Jedi</td><td>7.4                                    </td><td>325,857                                </td><td>152 min                                </td></tr>
-	<tr><td>Shot Caller                            </td><td>7.4                                    </td><td>41,988                                 </td><td>121 min                                </td></tr>
-	<tr><td>Beauty and the Beast                   </td><td>7.3                                    </td><td>200,891                                </td><td>129 min                                </td></tr>
-	<tr><td>Good Time                              </td><td>7.3                                    </td><td>32,710                                 </td><td>101 min                                </td></tr>
-	<tr><td>The LEGO Batman Movie                  </td><td>7.3                                    </td><td>95,833                                 </td><td>104 min                                </td></tr>
-	<tr><td>American Made                          </td><td>7.2                                    </td><td>88,919                                 </td><td>115 min                                </td></tr>
-	<tr><td>Marshall                               </td><td>7.2                                    </td><td>7,673                                  </td><td>118 min                                </td></tr>
-	<tr><td>Jumanji: Welcome to the Jungle         </td><td>7.1                                    </td><td>94,534                                 </td><td>119 min                                </td></tr>
-	<tr><td>Logan Lucky                            </td><td>7.1                                    </td><td>72,223                                 </td><td>118 min                                </td></tr>
-	<tr><td>All the Money in the World             </td><td>7.1                                    </td><td>16,497                                 </td><td>132 min                                </td></tr>
-	<tr><td>The Foreigner                          </td><td>7.1                                    </td><td>55,143                                 </td><td>113 min                                </td></tr>
-	<tr><td>Goodbye Christopher Robin              </td><td>7.1                                    </td><td>8,796                                  </td><td>107 min                                </td></tr>
+	<tr><td>Coco                                   </td><td>8.5                                    </td><td>130,673                                </td><td>105 min                                </td></tr>
+	<tr><td>Blade Runner 2049                      </td><td>8.1                                    </td><td>263,525                                </td><td>164 min                                </td></tr>
+	<tr><td>Paddington 2                           </td><td>8.1                                    </td><td>17,648                                 </td><td>103 min                                </td></tr>
+	<tr><td>Logan                                  </td><td>8.1                                    </td><td>460,394                                </td><td>137 min                                </td></tr>
+	<tr><td>Thor: Ragnarok                         </td><td>8.0                                    </td><td>270,827                                </td><td>130 min                                </td></tr>
+	<tr><td>Dunkirk                                </td><td>8.0                                    </td><td>366,012                                </td><td>106 min                                </td></tr>
+	<tr><td>Wind River                             </td><td>7.8                                    </td><td>108,518                                </td><td>107 min                                </td></tr>
+	<tr><td>Get Out                                </td><td>7.7                                    </td><td>279,178                                </td><td>104 min                                </td></tr>
+	<tr><td>Baby Driver                            </td><td>7.7                                    </td><td>278,392                                </td><td>112 min                                </td></tr>
+	<tr><td>Guardians of the Galaxy Vol. 2         </td><td>7.7                                    </td><td>350,934                                </td><td>136 min                                </td></tr>
+	<tr><td>I, Tonya                               </td><td>7.6                                    </td><td>60,714                                 </td><td>120 min                                </td></tr>
+	<tr><td>The Disaster Artist                    </td><td>7.6                                    </td><td>61,917                                 </td><td>104 min                                </td></tr>
+	<tr><td>Wonder Woman                           </td><td>7.5                                    </td><td>387,338                                </td><td>141 min                                </td></tr>
+	<tr><td>It                                     </td><td>7.5                                    </td><td>256,186                                </td><td>135 min                                </td></tr>
+	<tr><td>Spider-Man: Homecoming                 </td><td>7.5                                    </td><td>291,337                                </td><td>133 min                                </td></tr>
+	<tr><td>Molly's Game                           </td><td>7.5                                    </td><td>36,089                                 </td><td>140 min                                </td></tr>
+	<tr><td>John Wick: Chapter 2                   </td><td>7.5                                    </td><td>219,322                                </td><td>122 min                                </td></tr>
+	<tr><td>War for the Planet of the Apes         </td><td>7.5                                    </td><td>160,785                                </td><td>140 min                                </td></tr>
+	<tr><td>Star Wars: Episode VIII - The Last Jedi</td><td>7.4                                    </td><td>332,882                                </td><td>152 min                                </td></tr>
+	<tr><td>Shot Caller                            </td><td>7.4                                    </td><td>42,224                                 </td><td>121 min                                </td></tr>
+	<tr><td>Beauty and the Beast                   </td><td>7.3                                    </td><td>201,274                                </td><td>129 min                                </td></tr>
+	<tr><td>Good Time                              </td><td>7.3                                    </td><td>33,148                                 </td><td>101 min                                </td></tr>
+	<tr><td>The LEGO Batman Movie                  </td><td>7.3                                    </td><td>96,065                                 </td><td>104 min                                </td></tr>
+	<tr><td>American Made                          </td><td>7.2                                    </td><td>89,433                                 </td><td>115 min                                </td></tr>
+	<tr><td>Marshall                               </td><td>7.2                                    </td><td>7,828                                  </td><td>118 min                                </td></tr>
+	<tr><td>Jumanji: Welcome to the Jungle         </td><td>7.1                                    </td><td>101,888                                </td><td>119 min                                </td></tr>
+	<tr><td>Logan Lucky                            </td><td>7.1                                    </td><td>72,775                                 </td><td>118 min                                </td></tr>
+	<tr><td>Goodbye Christopher Robin              </td><td>7.1                                    </td><td>8,974                                  </td><td>107 min                                </td></tr>
+	<tr><td>The Foreigner                          </td><td>7.1                                    </td><td>55,621                                 </td><td>113 min                                </td></tr>
+	<tr><td>The Man Who Invented Christmas         </td><td>7.1                                    </td><td>3,065                                  </td><td>104 min                                </td></tr>
 	<tr><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td></tr>
-	<tr><td>The LEGO Ninjago Movie        </td><td>6.0                           </td><td>11,913                        </td><td>101 min                       </td></tr>
-	<tr><td>Jigsaw                        </td><td>5.9                           </td><td>38,211                        </td><td>92 min                        </td></tr>
-	<tr><td>Smurfs: The Lost Village      </td><td>5.9                           </td><td>12,518                        </td><td>90 min                        </td></tr>
-	<tr><td>Maze                          </td><td>5.9                           </td><td>1,264                         </td><td>92 min                        </td></tr>
-	<tr><td>All Eyez on Me                </td><td>5.8                           </td><td>14,413                        </td><td>139 min                       </td></tr>
-	<tr><td>Downsizing                    </td><td>5.7                           </td><td>28,401                        </td><td>135 min                       </td></tr>
-	<tr><td>The Dark Tower                </td><td>5.7                           </td><td>83,020                        </td><td>95 min                        </td></tr>
-	<tr><td>47 Meters Down                </td><td>5.7                           </td><td>28,237                        </td><td>89 min                        </td></tr>
-	<tr><td>2:22                          </td><td>5.7                           </td><td>11,933                        </td><td>98 min                        </td></tr>
-	<tr><td>Baywatch                      </td><td>5.6                           </td><td>95,486                        </td><td>116 min                       </td></tr>
-	<tr><td>Fist Fight                    </td><td>5.6                           </td><td>28,025                        </td><td>91 min                        </td></tr>
-	<tr><td>The Mummy                     </td><td>5.5                           </td><td>126,125                       </td><td>110 min                       </td></tr>
-	<tr><td>A Bad Moms Christmas          </td><td>5.5                           </td><td>18,499                        </td><td>104 min                       </td></tr>
-	<tr><td>Geostorm                      </td><td>5.4                           </td><td>51,647                        </td><td>109 min                       </td></tr>
-	<tr><td>The Circle                    </td><td>5.3                           </td><td>57,751                        </td><td>110 min                       </td></tr>
-	<tr><td>The Nut Job 2: Nutty by Nature</td><td>5.3                           </td><td>3,181                         </td><td>91 min                        </td></tr>
-	<tr><td>xXx: Return of Xander Cage    </td><td>5.2                           </td><td>67,638                        </td><td>107 min                       </td></tr>
-	<tr><td>Transformers: The Last Knight </td><td>5.2                           </td><td>92,131                        </td><td>154 min                       </td></tr>
-	<tr><td>Rough Night                   </td><td>5.2                           </td><td>29,146                        </td><td>101 min                       </td></tr>
-	<tr><td>Flatliners                    </td><td>5.2                           </td><td>21,593                        </td><td>109 min                       </td></tr>
-	<tr><td>Once Upon a Time in Venice    </td><td>5.2                           </td><td>10,598                        </td><td>94 min                        </td></tr>
-	<tr><td>November Criminals            </td><td>5.2                           </td><td>4,168                         </td><td>85 min                        </td></tr>
-	<tr><td>Bullet Head                   </td><td>5.2                           </td><td>2,750                         </td><td>93 min                        </td></tr>
-	<tr><td>The Snowman                   </td><td>5.1                           </td><td>31,405                        </td><td>119 min                       </td></tr>
-	<tr><td>Unforgettable                 </td><td>5.0                           </td><td>8,467                         </td><td>100 min                       </td></tr>
-	<tr><td>Father Figures                </td><td>4.9                           </td><td>2,187                         </td><td>113 min                       </td></tr>
-	<tr><td>The Vault                     </td><td>4.8                           </td><td>6,626                         </td><td>91 min                        </td></tr>
-	<tr><td>Surf's Up 2: WaveMania        </td><td>4.7                           </td><td>1,007                         </td><td>84 min                        </td></tr>
-	<tr><td>Fifty Shades Darker           </td><td>4.6                           </td><td>68,824                        </td><td>118 min                       </td></tr>
-	<tr><td>Rings                         </td><td>4.5                           </td><td>28,822                        </td><td>102 min                       </td></tr>
+	<tr><td>The LEGO Ninjago Movie        </td><td>6.0                           </td><td>12,008                        </td><td>101 min                       </td></tr>
+	<tr><td>Jigsaw                        </td><td>5.9                           </td><td>38,558                        </td><td>92 min                        </td></tr>
+	<tr><td>Smurfs: The Lost Village      </td><td>5.9                           </td><td>12,562                        </td><td>90 min                        </td></tr>
+	<tr><td>Maze                          </td><td>5.9                           </td><td>1,285                         </td><td>92 min                        </td></tr>
+	<tr><td>All Eyez on Me                </td><td>5.8                           </td><td>14,456                        </td><td>139 min                       </td></tr>
+	<tr><td>Downsizing                    </td><td>5.7                           </td><td>30,295                        </td><td>135 min                       </td></tr>
+	<tr><td>47 Meters Down                </td><td>5.7                           </td><td>28,428                        </td><td>89 min                        </td></tr>
+	<tr><td>The Dark Tower                </td><td>5.7                           </td><td>83,307                        </td><td>95 min                        </td></tr>
+	<tr><td>2:22                          </td><td>5.7                           </td><td>11,998                        </td><td>98 min                        </td></tr>
+	<tr><td>Baywatch                      </td><td>5.6                           </td><td>96,006                        </td><td>116 min                       </td></tr>
+	<tr><td>Fist Fight                    </td><td>5.6                           </td><td>28,079                        </td><td>91 min                        </td></tr>
+	<tr><td>The Mummy                     </td><td>5.5                           </td><td>126,503                       </td><td>110 min                       </td></tr>
+	<tr><td>A Bad Moms Christmas          </td><td>5.5                           </td><td>18,763                        </td><td>104 min                       </td></tr>
+	<tr><td>Geostorm                      </td><td>5.4                           </td><td>52,152                        </td><td>109 min                       </td></tr>
+	<tr><td>The Circle                    </td><td>5.3                           </td><td>57,954                        </td><td>110 min                       </td></tr>
+	<tr><td>The Nut Job 2: Nutty by Nature</td><td>5.3                           </td><td>3,205                         </td><td>91 min                        </td></tr>
+	<tr><td>Transformers: The Last Knight </td><td>5.2                           </td><td>92,396                        </td><td>154 min                       </td></tr>
+	<tr><td>Flatliners                    </td><td>5.2                           </td><td>21,790                        </td><td>109 min                       </td></tr>
+	<tr><td>Bullet Head                   </td><td>5.2                           </td><td>2,932                         </td><td>93 min                        </td></tr>
+	<tr><td>Rough Night                   </td><td>5.2                           </td><td>29,294                        </td><td>101 min                       </td></tr>
+	<tr><td>xXx: Return of Xander Cage    </td><td>5.2                           </td><td>67,741                        </td><td>107 min                       </td></tr>
+	<tr><td>November Criminals            </td><td>5.2                           </td><td>4,204                         </td><td>85 min                        </td></tr>
+	<tr><td>Once Upon a Time in Venice    </td><td>5.2                           </td><td>10,653                        </td><td>94 min                        </td></tr>
+	<tr><td>The Snowman                   </td><td>5.1                           </td><td>31,676                        </td><td>119 min                       </td></tr>
+	<tr><td>Unforgettable                 </td><td>5.0                           </td><td>8,503                         </td><td>100 min                       </td></tr>
+	<tr><td>Father Figures                </td><td>4.9                           </td><td>2,203                         </td><td>113 min                       </td></tr>
+	<tr><td>The Vault                     </td><td>4.8                           </td><td>6,673                         </td><td>91 min                        </td></tr>
+	<tr><td>Fifty Shades Darker           </td><td>4.6                           </td><td>69,004                        </td><td>118 min                       </td></tr>
+	<tr><td>Surf's Up 2: WaveMania        </td><td>4.6                           </td><td>1,014                         </td><td>84 min                        </td></tr>
+	<tr><td>Rings                         </td><td>4.5                           </td><td>28,864                        </td><td>102 min                       </td></tr>
 </tbody>
 </table>
 
@@ -12153,7 +12153,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[252]:</div>
+<div class="prompt input_prompt">In&nbsp;[258]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>df_rate_only <span class="o">=</span> <span class="kt">data.frame</span><span class="p">(</span>movie_name_list<span class="p">,</span> movie_rate_list<span class="p">)</span>
@@ -12166,7 +12166,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[253]:</div>
+<div class="prompt input_prompt">In&nbsp;[259]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>df_rate_select <span class="o">=</span> df_rate_only<span class="p">[</span>df_rate_only<span class="p">[</span><span class="s">&quot;movie_rate_list&quot;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="m">7.8</span><span class="p">,</span> <span class="p">]</span>
@@ -12179,7 +12179,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[254]:</div>
+<div class="prompt input_prompt">In&nbsp;[260]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>df_rate_select
@@ -12204,9 +12204,9 @@ div#notebook {
 <thead><tr><th scope=col>movie_name_list</th><th scope=col>movie_rate_list</th></tr></thead>
 <tbody>
 	<tr><td>Coco             </td><td>8.5              </td></tr>
-	<tr><td>Blade Runner 2049</td><td>8.2              </td></tr>
-	<tr><td>Logan            </td><td>8.1              </td></tr>
+	<tr><td>Blade Runner 2049</td><td>8.1              </td></tr>
 	<tr><td>Paddington 2     </td><td>8.1              </td></tr>
+	<tr><td>Logan            </td><td>8.1              </td></tr>
 	<tr><td>Thor: Ragnarok   </td><td>8.0              </td></tr>
 	<tr><td>Dunkirk          </td><td>8.0              </td></tr>
 </tbody>
@@ -12222,7 +12222,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[255]:</div>
+<div class="prompt input_prompt">In&nbsp;[261]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>p <span class="o">&lt;-</span>ggplot<span class="p">(</span>df_rate_select<span class="p">,</span> aes<span class="p">(</span>movie_name_list<span class="p">,</span> movie_rate_list<span class="p">))</span>
@@ -12275,575 +12275,849 @@ UdiBlq3r+xafL549HQ5jH+an+1y+LlYBifuxAvRN/lVVVOlwlCkdVm9NOL5BE4wkQ2SMlDZU
 97hX86EilU/lUmkQUztTE6mx1EEPh7OmdqBtAvv8HdWpbrJS6tJj3n0CWdM6busNzRV3S9KT
 YhqvNiqWmuroiKgYhshMjmhTh9ptWhsF7970j/SbMrsPE1suR5z7DMC+P/Hs+y7ijrQAlhyA
 gccjbhjPygfeBTjzhNqy28EdkUh8C+DU9+z2v/oyeH791OncxHOs5y2AtTc7nb/f73TWPkD/
-qwBnjX8BoJ98VQNcC+8AAEAASURBVHgB7N0JmFxVmT/g0+kkZIGQEAIYwyLCsIkEZZEIDEbF
-wIwIOCzKIhlAXEFQBBFFDDKjLIoOE0EhyIACOsK4BB0YeAQEHvYliayasEcWgZB9+3vun2q7
-qyvU0rdj3Xveeh7outup871fVbp/tdzqWPnXS3AhQIAAAQIECBAgQIAAgTCAAQECBAgQIECA
-AAECBAj8fwEByT2BAAECBAgQIECAAAECrwsISO4KBAgQIECAAAECBAgQeF1AQHJXIECAAAEC
-BAgQIECAwOsCApK7AgECBAgQIECAAAECBF4XEJDcFQgQIECAAAECBAgQIPC6gIDkrkCAAAEC
-BAgQIECAAIHXBQQkdwUCBAgQIECAAAECBAi8LjCwLBIvv/xyWLJkSVnK6bc6Ojo6wtprrx2W
-Ll0a5s+f32+3Y+D2EhgwYEAYMWJEWLx4cVi4cGF7Tc5s+k1g4MCBYc011wyLFi3K/uu3GzJw
-WwkMHjw4DBs2LCxYsMDvxbbqTP9OZo011ghDhw7NfrfH3/EuaQjEnsfez5s3LyxfvjyNovtQ
-ZWdnZxg9enTdEUoTkOKdwh2jbr9D/EM5/vJcsWIFr/pcpdkjBuPY92XLlul7abpav5D4iyD2
-PQZj/z7W9yrTHrHv8ckQfS9TV9+4lsq/86+99pq+vzFVqbZW/q5buXKlvufYWW+xyxHTUAQI
-ECBAgAABAgQIFFtAQCp2/8yeAAECBAgQIECAAIEcBQSkHDENRYAAAQIECBAgQIBAsQUEpGL3
-z+wJECBAgAABAgQIEMhRQEDKEdNQBAgQIECAAAECBAgUW0BAKnb/zJ4AAQIECBAgQIAAgRwF
-BKQcMQ1FgAABAgQIECBAgECxBQSkYvfP7AkQIECAAAECBAgQyFFAQMoR01AECBAgQIAAAQIE
-CBRbQEAqdv/MngABAgQIECBAgACBHAUEpBwxDUWAAAECBAgQIECAQLEFBKRi98/sCRAgQIAA
-AQIECBDIUUBAyhHTUAQIECBAgAABAgQIFFtAQCp2/8yeAAECBAgQIECAAIEcBQSkHDENRYAA
-AQIECBAgQIBAsQUEpGL3z+wJECBAgAABAgQIEMhRQEDKEdNQBAgQIECAAAECBAgUW0BAKnb/
-zJ4AAQIECBAgQIAAgRwFBKQcMQ1FgAABAgQIECBAgECxBQSkYvfP7AkQIECAAAECBAgQyFFA
-QMoR01AECBAgQIAAAQIECBRbQEAqdv/MngABAgQIECBAgACBHAUEpBwxDUWAAAECBAgQIECA
-QLEFBKRi98/sCRAgQIAAAQIECBDIUUBAyhHTUAQIECBAgAABAgQIFFtAQCp2/8yeAAECBAgQ
-IECAAIEcBQSkHDENRYAAAQIECBAgQIBAsQUEpGL3z+wJECBAgAABAgQIEMhRQEDKEdNQBAgQ
-IECAAAECBAgUW0BAKnb/zJ4AAQIECBAgQIAAgRwFBKQcMQ1FgAABAgQIECBAgECxBQSkYvfP
-7AkQIECAAAECBAgQyFFAQMoR01AECBAgQIAAAQIECBRbQEAqdv/MngABAgQIECBAgACBHAUG
-5jiWoQgUWmDy5MmFnr/JhzBt2jQMBAgQIECAAIE+CXgFqU98DiZAgAABAgQIECBAoEwCAlKZ
-uqkWAgQIECBAgAABAgT6JCAg9YnPwQQIECBAgAABAgQIlElAQCpTN9VCgAABAgQIECBAgECf
-BASkPvE5mAABAgQIECBAgACBMgkISGXqploIECBAgAABAgQIEOiTgIDUJz4HEyBAgAABAgQI
-ECBQJgEBqUzdVAsBAgQIECBAgAABAn0SEJD6xOdgAgQIECBAgAABAgTKJCAglambaiFAgAAB
-AgQIECBAoE8CAlKf+BxMgAABAgQIECBAgECZBASkMnVTLQQIECBAgAABAgQI9ElAQOoTn4MJ
-ECBAgAABAgQIECiTgIBUpm6qhQABAgQIECBAgACBPgkISH3iczABAgQIECBAgAABAmUSEJDK
-1E21ECBAgAABAgQIECDQJwEBqU98DiZAgAABAgQIECBAoEwCAlKZuqkWAgQIECBAgAABAgT6
-JCAg9YnPwQQIECBAgAABAgQIlElAQCpTN9VCgAABAgQIECBAgECfBASkPvE5mAABAgQIECBA
-gACBMgkISGXqploIECBAgAABAgQIEOiTgIDUJz4HEyBAgAABAgQIECBQJoGBZSomr1omT56c
-11DG+TsJTJs27e90y26WAAECBAgQIECgyAJeQSpy98ydAAECBAgQIECAAIFcBQSkXDkNRoAA
-AQIECBAgQIBAkQUEpCJ3z9wJECBAgAABAgQIEMhVQEDKldNgBAgQIECAAAECBAgUWUBAKnL3
-zJ0AAQIECBAgQIAAgVwFBKRcOQ1GgAABAgQIECBAgECRBQSkInfP3AkQIECAAAECBAgQyFVA
-QMqV02AECBAgQIAAAQIECBRZwBfFFrl75k6AAAECLQn4QvCW2NrqoFa+EFzf26qFLU2mlb63
-dEMOSlrAK0hJt1/xBAgQIECAAAECBAh0FxCQumu4ToAAAQIECBAgQIBA0gJtF5Dmzp0brrrq
-qnDvvfeGlStXJt0cxRMgQIAAAQIECBAgsHoF2uozSGeeeWa46aabwq677hp++ctfhgULFoTv
-fe97YezYsatXxa0RIECAAAECBAgQIJCkQNu8gvTYY4+Fa6+9Npxxxhnh1FNPDZdeemkYNGhQ
-uOyyy5JsjKIJECBAgAABAgQIEFj9Am0TkJYuXZpVv95662U/Ozo6wrhx48LChQtXv4pbJECA
-AAECBAgQIEAgSYG2eYvdFltsEbbbbrtw1llnhYMPPjjEV5RmzJgR4tvuqi/33HNPOPvss3us
-Pv7447Pje6y0kKzA6NGjk6095cL1vWf34xNN8TJs2LCwxhpr9NxoiUDBBTzeC97AFqev7z3h
-Ojs7sxVrr722z+73pKm5tGzZsprrq1e2TUAaMGBAOOaYY8IJJ5wQvva1r4VFixaFffbZp2bo
-efnll8Pdd9/do5b58+eHwYMH91hnIV0B94U0e99K3ydNmpQmVomq/s1vflOiapTSqEArj/dG
-x7Zf+wq00nf/zrdvPxud2er+d75tAtJdd92VhaOTTz45vP/97w9z5szJXj06/fTTw9e//vUe
-fhMnTgyzZs3qsS6GpmeffbbHOgvpCrgvpNl7fdf3NAXSrNrjXd/TFEiz6rwe7/EVt8rHed5I
-sm0+g3TjjTeGbbbZJuy9997ZyRk222yz8NGPfjTcfPPN2dnsqouIBXb/r3q7ZQIECBAgQIAA
-AQIECDQr0DYBKb6lbvjw4T3mHwNQfK/g4sWLe6y3QIAAAQIECBAgQIAAgf4QaJuAFN82F99m
-d/3114cVK1aExx9/PFx++eVh++23D6NGjeqP2o1JgAABAgQIECBAgACBHgJt8xmkd7/73eHY
-Y4/NzmL3zW9+MztJw8477xziZ5JcCBAgQIAAAQIECBAgsDoE2iYgxWL333//sO+++4bnnnsu
-jBw5Mjs17epAcBsECBAgQIAAAQIECBCIAm0VkOKE4um+x44dG6+6ECBAgAABAgQIECBAYLUK
-tM1nkFZr1W6MAAECBAgQIECAAAECNQQEpBooVhEgQIAAAQIECBAgkKaAgJRm31VNgAABAgQI
-ECBAgEANAQGpBopVBAgQIECAAAECBAikKSAgpdl3VRMgQIAAAQIECBAgUENAQKqBYhUBAgQI
-ECBAgAABAmkKCEhp9l3VBAgQIECAAAECBAjUEBCQaqBYRYAAAQIECBAgQIBAmgICUpp9VzUB
-AgQIECBAgAABAjUEBKQaKFYRIECAAAECBAgQIJCmgICUZt9VTYAAAQIECBAgQIBADQEBqQaK
-VQQIECBAgAABAgQIpCkgIKXZd1UTIECAAAECBAgQIFBDQECqgWIVAQIECBAgQIAAAQJpCghI
-afZd1QQIECBAgAABAgQI1BAQkGqgWEWAAAECBAgQIECAQJoCAlKafVc1AQIECBAgQIAAAQI1
-BASkGihWESBAgAABAgQIECCQpoCAlGbfVU2AAAECBAgQIECAQA0BAakGilUECBAgQIAAAQIE
-CKQpICCl2XdVEyBAgAABAgQIECBQQ0BAqoFiFQECBAgQIECAAAECaQoISGn2XdUECBAgQIAA
-AQIECNQQEJBqoFhFgAABAgQIECBAgECaAgJSmn1XNQECBAgQIECAAAECNQQEpBooVhEgQIAA
-AQIECBAgkKaAgJRm31VNgAABAgQIECBAgEANAQGpBopVBAgQIECAAAECBAikKSAgpdl3VRMg
-QIAAAQIECBAgUENAQKqBYhUBAgQIECBAgAABAmkKCEhp9l3VBAgQIECAAAECBAjUEBCQaqBY
-RYAAAQIECBAgQIBAmgICUpp9VzUBAgQIECBAgAABAjUEBKQaKFYRIECAAAECBAgQIJCmgICU
-Zt9VTYAAAQIECBAgQIBADQEBqQaKVQQIECBAgAABAgQIpCkgIKXZd1UTIECAAAECBAgQIFBD
-QECqgWIVAQIECBAgQIAAAQJpCghIafZd1QQIECBAgAABAgQI1BAQkGqgWEWAAAECBAgQIECA
-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
-qkUsEyBAgAABAgQIECCQrICAlGzrFU6AAAECBAgQIECAQLWAgFQtYpkAAQIECBAgQIAAgWQF
-BKRkW69wAgQIECBAgAABAgSqBQSkahHLBAgQIECAAAECBAgkKyAgJdt6hRMgQIAAAQIECBAg
-UC0gIFWLWCZAgAABAgQIECBAIFkBASnZ1iucAAECBAgQIECAAIFqAQGpWsQyAQIECBAgQIAA
-AQLJCghIybZe4QQIECBAgAABAgQIVAsISNUilgkQIECAAAECBAgQSFZAQEq29QonQIAAAQIE
-CBAgQKBaQECqFrFMgAABAgQIECBAgECyAgJSsq1XOAECBAgQIECAAAEC1QICUrWIZQIECBAg
-QIAAAQIEkhUQkJJtvcIJECBAgAABAgQIEKgWEJCqRSwTIECAAAECBAgQIJCsgICUbOsVToAA
-AQIECBAgQIBAtYCAVC1imQABAgQIECBAgACBZAUEpGRbr3ACBAgQIECAAAECBKoFBKRqEcsE
-CBAgQIAAAQIECCQrICAl23qFEyBAgAABAgQIECBQLTCwesXfe/mxxx4Ld999d1h77bXDbrvt
-FoYPH/73npLbJ0CAAAECBAgQIEAgEYG2egXp5z//efjUpz4VHnroofA///M/YZ999gmPPvpo
-Iq1QJgECBAgQIECAAAECf2+BtglIf/nLX8L5558fTjzxxHDaaaeFqVOnhve9731h2rRpf28j
-t0+AAAECBAgQIECAQCICbfMWu+nTp4dx48aF97///V30xx57bFi4cGHXsisECBAgQIAAAQIE
-CBDoT4G2CUhPPvlk2HjjjcPvf//7EMPSokWLwnvf+96w995796r/xRdfDDNmzOixPh47YsSI
-HusspCuwxhprpFt8wpXre5rN13d9T1Mgzao93vV9dQi0TUB6/vnnw7PPPhseeeSR8M///M9h
-9uzZ4ayzzgrxrXeHHHJID4v7778/fPKTn+yx7oILLgh77LFHj3UW0hVYZ5110i0+4cr1Pc3m
-67u+pymQZtUe7/reF4ElS5Y0dHjbBKTly5eHp556Kvz0pz8N66+/fjb5tdZaK/zoRz8KH/nI
-R8KAAX/7uNSmm24ajjvuuB4FxmPmzZvXY52FdAXcF9Lsvb7re5oCaVbt8a7vaQqkWXVej/eV
-K1eGwYMH10Vsm4A0ZsyYsNVWW3WFozjzXXfdNfzsZz8LL730Ulh33XW7itlkk02ys911rfjr
-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
-vqITE6GAVLMlSa50X0iy7f4NSLPt+q7viQqkWbbf7/reF4HOzs6GDm8oID3//PNdv4Duvffe
-cMcdd4Snn3661w3EO+306dPDE088ERYtWrRaA1KvyVhBgAABAgQIECBAgACBJgUaCkjTpk0L
-J510Uo+hx40b12O5+8L48ePDqFGjuq9ynQABAgQIECBAgAABAm0v0FBAOv7440P8jM/SpUvD
-jTfeGObMmROOOOKIXsUNHDgwC0YHHHBAr21WECBAgAABAgQIECBAoN0FGgpIgwYNCqecckpW
-y5ZbbhlmzZoVTjvttHavzfwIECBAgAABAgQIECDQlEBDAan7iAcddFC2uHz58lD5oFN8demm
-m24Kzz77bNhrr73COuus0/0Q1wkQIECAAAECBAgQIFAIgZa+KPbb3/52ePOb35ydiCFWeeSR
-R4b3vve94dBDDw0bb7xxmDlzZiGKN0kCBAgQIECAAAECBAh0F2g6IN18883h85//fFhvvfVC
-PCf53XffHeKpv3ffffdw1VVXhU022SQLSt1vxHUCBAgQIECAAAECBAgUQaDpt9jF03i/6U1v
-Cvfdd18YMGBA9r1HsdCzzz477LjjjtmJHOIrSfPmzQtrrbVWEQzMkQABAgQIECBAgAABAplA
-068gPfLII2HChAlZOIojXHvttWHMmDFhhx12yAbcZpttwsqVK8Ps2bOzZf8jQIAAAQIECBAg
-QIBAUQSaDkjxBAwPP/xwVl88KcM999wT9txzz9DR0ZGtu+GGG7Kf8VUmFwIECBAgQIAAAQIE
-CBRJoOmANGnSpDBjxozw6U9/OnzkIx/JXi065JBDQjyrXXyb3Te+8Y2w8847h3XXXbdIDuZK
-gAABAgQIECBAgACB0PRnkPbbb7/w2c9+Npx//vnZ2+xOPPHE7NTeMSCdeuqp2dns4lnuXAgQ
-IECAAAECBAgQIFA0gaYDUjwxw3nnnRfOOOOMrNbKiRjidyLdfvvtYfz48UUzMF8CBAgQIECA
-AAECBAhkAk0HpIpbJRhVluNP4ai7husECBAgQIAAAQIECBRNoG5AeuaZZ7KTMMQz11144YXZ
-W+umTp1at874OSUXAgQIECBAgAABAgQIFEmgbkCKb6lbc801w5AhQ7K6Bg8enC0XqUhzJUCA
-AAECBAgQIECAQCMCdQPSBhtskH22qDLY0UcfHeJ/LgQIECBAgAABAgQIECibQNOn+S4bgHoI
-ECBAgAABAgQIECBQERCQKhJ+EiBAgAABAgQIECCQvEDdt9g999xzYd99920aKp7y24UAAQIE
-CBAgQIAAAQJFEqgbkFasWBHmz59fpJrMlQABAgQIECBAgAABAi0J1A1IY8eODQ8++GBLg8eD
-7rzzzjBv3rwwceLElsdwIAECBAgQIECAAAECBFaHQN2A1NdJXHPNNWHOnDkCUl8hHU+AAAEC
-BAgQIECAQL8LOElDvxO7AQIECBAgQIAAAQIEiiIgIBWlU+ZJgAABAgQIECBAgEC/CwhI/U7s
-BggQIECAAAECBAgQKIqAgFSUTpknAQIECBAgQIAAAQL9LiAg9TuxGyBAgAABAgQIECBAoCgC
-AlJROmWeBAgQIECAAAECBAj0u4CA1O/EboAAAQIECBAgQIAAgaIICEhF6ZR5EiBAgAABAgQI
-ECDQ7wICUr8TuwECBAgQIECAAAECBIoiMLAvE33ggQfCI488EtZaa63wgQ98IMyZMydsvPHG
-PYacPHlyWLhwYY91FggQIECAAAECBAgQINCOAi29gjRr1qyw++67h+222y4ccMABYdq0aVlt
-cfmrX/1qWLx4cVetm222Wdh22227ll0hQIAAAQIECBAgQIBAuwo0/QrSq6++Gvbee++wdOnS
-8PnPfz7ceuutWW3Lly8PkyZNClOmTAlPP/10uOiii9q1ZvMiQIAAAQIECBAgQIBATYGmX0G6
-8MILwyuvvBJuu+22cPbZZ4dx48ZlA3d2doYrrrginHDCCeHSSy8N8+fPr3mDVhIgQIAAAQIE
-CBAgQKBdBZoOSPfee2/YY489wkYbbVSzpoMPPjgsW7YszJ49u+Z2KwkQIECAAAECBAgQINCu
-Ak0HpGHDhoX4GaRVXRYsWJBtGj169Kp2sZ4AAQIECBAgQIAAAQJtKdB0QNppp52yM9ddffXV
-vQqKn086/fTTw9ixY8MGG2zQa7sVBAgQIECAAAECBAgQaGeBpk/SEE/bHT+HtP/++4dddtkl
-xFA0dOjQcMghh4QYmuIpva+88sp2rtncCBAgQIAAAQIECBAgUFOg6YA0cODAMH369HDyySeH
-Sy65JKxYsSIb+K677gpvetObsvB04IEH1rwxKwkQIECAAAECBAgQINDOAk0HpFjMmDFjstN4
-n3POOeHRRx8NL7zwQth0002z/wYNGtTO9ZobAQIECBAgQIAAAQIEVinQ9GeQ4im8v/jFL2YD
-jhw5Muy4445hr732CltssUWI4eiaa64JG2+8cfZWu1Xeqg0ECBAgQIAAAQIECBBoQ4GGXkF6
-/vnnw5IlS7Lpx9N833HHHdmXwVbXE/eJb7974oknwqJFi7LPJlXvY5kAAQIECBAgQIAAAQLt
-KtBQQJo2bVo46aSTetRQ+YLYHitfXxg/fnwYNWpUrU3WESBAgAABAgQIECBAoG0FGgpIxx9/
-fPblr0uXLg033nhjmDNnTjjiiCN6FRVP4BCD0QEHHNBrmxUECBAgQIAAAQIECBBod4GGAlL8
-bNEpp5yS1bLllltmXxR72mmntXtt5keAAAECBAgQIECAAIGmBBoKSN1HPOigg7ov9rq+cuXK
-cMstt4Tddtut1zYrCBAgQIAAAQIECBAg0M4CTQekWMzFF18czj///PDnP/85xLfdxUsMRsuW
-LQvz5s3L1sVlFwIECBAgQIAAAQIECBRJoOnTfN98883hqKOOCg888EB2Ou+5c+eGeMKG+N1I
-r732WhgwYECYOnVqkQzMlQABAgQIECBAgAABAplA0wHpV7/6VRaC/vSnP2Vvpdt6663DgQce
-GGbMmBFmzpwZ1l9//dDZ2YmXAAECBAgQIECAAAEChRNoOiA9/vjjYZdddsleNYrVbr/99uH2
-22/PCt9ss83CN7/5zXDqqacWDsKECRAgQIAAAQIECBAg0HRAiqfxHjp0aJfcFltsEeKXx1Yu
-EyZMyD6b9NRTT1VW+UmAAAECBAgQIECAAIFCCDQdkOJpvm+77bYQP3sUL/EtdrNnzw5PPPFE
-thzfZhc/hxRPDe5CgAABAgQIECBAgACBIgk0HZAOP/zw7BWkzTffPPzud78LEydODMOHDw8f
-/vCHw5lnnhk+85nPZG/Bi59FciFAgAABAgQIECBAgECRBJoOSPFsdVdffXX22aNFixaF+Ja7
-eNa6++67L3z5y18OTz75ZDjuuOOKZGCuBAgQIECAAAECBAgQyASa/h6k559/PmyyySbZq0eV
-7zo67LDDwp577pl9FmmbbbYJG264IV4CBAgQIECAAAECBAgUTqDpV5AuuuiisNFGG4WHH344
-dHR0dBUc31I3adIk4ahLxBUCBAgQIECAAAECBIom0HRA+sMf/pDV6FWiorXafAkQIECAAAEC
-BAgQqCfQdED69Kc/HUaPHh2+8pWvhPgZJBcCBAgQIECAAAECBAiURaDpzyDFkzDEzxmde+65
-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
-AQIECBAgQIAAAQJtJdB0QIqzv/vuu8MRRxwRZsyY0auYeEa7L33pS73WW0GAAAECBAgQIECA
-AIF2F2g6IL388svhQx/6UPYK0rnnnht23nnnEN9qN3v27HDxxReHU045JQwZMiQcf/zx7V67
-+REgQIAAAQIECBAgQKCHQNMB6Qc/+EGIIemee+4J//AP/9A12Nvf/vawzz77hGOOOSZMnTpV
-QOqScYUAAQIECBAgQIAAgaIINP1Fsffff3/YY489eoSj7sV+/OMfD48++mh45plnuq92nQAB
-AgQIECBAgAABAm0v0HRA6uzsDEuWLFllYZVty5cvX+U+NhAgQIAAAQIECBAgQKAdBZoOSDvs
-sEP43e9+F+64445e9axcuTJ861vfCuuuu27YcMMNe223ggABAgQIECBAgAABAu0s0PRnkI46
-6qgQT84Q32Z39NFHh5122imMGDEiO0nDJZdckn02KZ6swYUAAQIECBAgQIAAAQJFE2g6IA0d
-OjT8/ve/D0ceeWT47ne/26PeUaNGhfPPPz9Mnjy5x3oLBAgQIECAAAECBAgQKIJA0wEpFjV2
-7Nhw7bXXhqeeeir84Q9/CC+++GJ461vfGrbaaqvslN9FKNwcCRAgQIAAAQIECBAgUC3QUkCq
-DBJfTYqn965c5s+fH+J/8bL++utXVvtJgAABAgQIECBAgACBQgg0HZDiiRiOPfbYMG3atK4w
-VKvSuJ8LAQIECBAgQIAAAQIEiiTQdECKnz/6j//4j/DOd74zvPvd785O0FCkgs2VAAECBAgQ
-IECAAAECqxJoOiD9+Mc/Dm95y1vCbbfdFgYNGrSqca0nQIAAAQIECBAgQIBA4QSa/h6kIUOG
-hJEjRwpHhWu1CRMgQIAAAQIECBAgUE+g6YB0wAEHhAcffDDcdddd9ca2nQABAgQIECBAgAAB
-AoUSaPotdrvssku48MILw8SJE8NBBx0UNtlkkzBwYO9hTjrppEJBmCwBAgQIECBAgAABAgR6
-J5s6Jk8++WQ455xzwrx588IPf/jDVe4tIK2SxgYCBAgQIECAAAECBNpUoOmAdNlll4WZM2eG
-U089Ney9995hzJgxbVqaaREgQIAAAQIECBAgQKA5gaYD0v333x+23XbbMGXKlOZuyd4ECBAg
-QIAAAQIECBBoc4GmT9Lwjne84w2/ILbN6zU9AgQIECBAgAABAgQIrFKg6YB0+OGHh5UrV4YT
-TzwxLFq0aJUD20CAAAECBAgQIECAAIGiCTT9FrtbbrkljB07Npx99tnZyRri9XXWWSd0dHT0
-qD2+Fc+FAAECBAgQIECAAAECRRJoOiC99NJLYcmSJWHHHXcsUp3mSoAAAQIECBAgQIAAgboC
-TQekj3/84yH+50KAAAECBAgQIECAAIGyCTT9GaSyAaiHAAECBAgQIECAAAECFQEBqSLhJwEC
-BAgQIECAAAECyQsISMnfBQAQIECAAAECBAgQIFAREJAqEn4SIECAAAECBAgQIJC8gICU/F0A
-AAECBAgQIECAAAECFQEBqSLhJwECBAgQIECAAAECyQsISMnfBQAQIECAAAECBAgQIFAREJAq
-En4SIECAAAECBAgQIJC8gICU/F0AAAECBAgQIECAAAECFQEBqSLhJwECBAgQIECAAAECyQsI
-SMnfBQAQIECAAAECBAgQIFAREJAqEn4SIECAAAECBAgQIJC8gICU/F0AAAECBAgQIECAAAEC
-FQEBqSLhJwECBAgQIECAAAECyQsISMnfBQAQIECAAAECBAgQIFAREJAqEn4SIECAAAECBAgQ
-IJC8gICU/F0AAAECBAgQIECAAAECFQEBqSLhJwECBAgQIECAAAECyQsISMnfBQAQIECAAAEC
-BAgQIFAREJAqEn4SIECAAAECBAgQIJC8gICU/F0AAAECBAgQIECAAAECFQEBqSLhJwECBAgQ
-IECAAAECyQsISMnfBQAQIECAAAECBAgQIFAREJAqEn4SIECAAAECBAgQIJC8gICU/F0AAAEC
-BAgQIECAAAECFQEBqSLhJwECBAgQIECAAAECyQsISMnfBQAQIECAAAECBAgQIFAREJAqEn4S
-IECAAAECBAgQIJC8gICU/F0AAAECBAgQIECAAAECFQEBqSLhJwECBAgQIECAAAECyQsISMnf
-BQAQIECAAAECBAgQIFAREJAqEn4SIECAAAECBAgQIJC8gICU/F0AAAECBAgQIECAAAECFQEB
-qSLhJwECBAgQIECAAAECyQsISMnfBQAQIECAAAECBAgQIFAREJAqEn4SIECAAAECBAgQIJC8
-gICU/F0AAAECBAgQIECAAAECFQEBqSLhJwECBAgQIECAAAECyQsISMnfBQAQIECAAAECBAgQ
-IFAREJAqEn4SIECAAAECBAgQIJC8gICU/F0AAAECBAgQIECAAAECFYGBlStF/9nR0RE6OzuL
-Xob55yTgvpATZMGG0feCNSyn6ep7TpAFG0bfC9awnKar7zlBFmyYvPo+YEBjrw2VJiANHjw4
-DB8+vGDtNt3+Elh77bX7a2jjtrGAvrdxc/pxavrej7htPLS+t3Fz+nFq+t6PuG08dF59X758
-eUNVliYgLV68OMybN6+hou1UfoGXXnqp/EWqsJeAvvciSWKFvifR5l5F6nsvkiRW6HsSbe5V
-ZF59j69EDRs2rNf41Ssae52p+ijLBAgQIECAAAECBAgQKKGAgFTCpiqJAAECBAgQIECAAIHW
-BASk1twcRYAAAQIECBAgQIBACQUEpBI2VUkECBAgQIAAAQIECLQmICC15uYoAgQIECBAgAAB
-AgRKKCAglbCpSiJAgAABAgQIECBAoDUBAak1N0cRIECAAAECBAgQIFBCAQGphE1VEgECBAgQ
-IECAAAECrQkISK25OYoAAQIECBAgQIAAgRIKCEglbKqSCBAgQIAAAQIECBBoTUBAas3NUQQI
-ECBAgAABAgQIlFBAQCphU5VEgAABAgQIECBAgEBrAgJSa26OIkCAAAECBAgQIECghAICUgmb
-qiQCBAgQIECAAAECBFoTEJBac3MUAQIECBAgQIAAAQIlFBCQSthUJREgQIAAAQIECBAg0JqA
-gNSam6MIECBAgAABAgQIECihgIBUwqYqiQABAgQIECBAgACB1gQEpNbcHEWAAAECBAgQIECA
-QAkFBKQSNlVJBAgQIECAAAECBAi0JiAgtebmKAIECBAgQIAAAQIESiggIJWwqUoiQIAAAQIE
-CBAgQKA1AQGpNTdHESBAgAABAgQIECBQQgEBqYRNVRIBAgQIECBAgAABAq0JCEituTmKAAEC
-BAgQIECAAIESCghIJWyqkggQIECAAAECBAgQaE1AQGrNzVEECBAgQIAAAQIECJRQQEAqYVOV
-RIAAAQIECBAgQIBAawICUmtujiJAgAABAgQIECBAoIQCAlIJm6okAgQIECBAgAABAgRaExCQ
-WnNzFAECBAgQIECAAAECJRQQkErYVCURIECAAAECBAgQINCagIDUmpujCBAgQIAAAQIECBAo
-oYCAVMKmKokAAQIECBAgQIAAgdYEBKTW3BxFgAABAgQIECBAgEAJBQSkEjZVSQQIECBAgAAB
-AgQItCYgILXm5igCBAgQIECAAAECBEooICCVsKlKIkCAAAECBAgQIECgNQEBqTU3RxEgQIAA
-AQIECBAgUEIBAamETVUSAQIECBAgQIAAAQKtCQhIrbk5igABAgQIECBAgACBEgoISCVsqpII
-ECBAgAABAgQIEGhNQEBqzc1RBAgQIECAAAECBAiUUEBAKmFTlUSAAAECBAgQIECAQGsCAlJr
-bo4iQIAAAQIECBAgQKCEAgJSCZuqJAIECBAgQIAAAQIEWhMQkFpzcxQBAgQIECBAgAABAiUU
-EJBK2FQlESBAgAABAgQIECDQmoCA1JqbowgQIECAAAECBAgQKKGAgFTCpiqJAAECBAgQIECA
-AIHWBASk1twcRYAAAQIECBAgQIBACQUEpBI2VUkECBAgQIAAAQIECLQmICC15uYoAgQIECBA
-gAABAgRKKCAglbCpSiJAgAABAgQIECBAoDUBAak1N0cRIECAAAECBAgQIFBCAQGphE1VEgEC
-BAgQIECAAAECrQkISK25OYoAAQIECBAgQIAAgRIKCEglbKqSCBAgQIAAAQIECBBoTUBAas3N
-UQQIECBAgAABAgQIlFBAQCphU5VEgAABAgQIECBAgEBrAgJSa26OIkCAAAECBAgQIECghAIC
-UgmbqiQCBAgQIECAAAECBFoTEJBac3MUAQIECBAgQIAAAQIlFBCQSthUJREgQIAAAQIECBAg
-0JqAgNSam6MIECBAgAABAgQIECihgIBUwqYqiQABAgQIECBAgACB1gQEpNbcHEWAAAECBAgQ
-IECAQAkFBKQSNlVJBAgQIECAAAECBAi0JiAgtebmKAIECBAgQIAAAQIESiggIJWwqUoiQIAA
-AQIECBAgQKA1AQGpNTdHESBAgAABAgQIECBQQgEBqYRNVRIBAgQIECBAgAABAq0JCEituTmK
-AAECBAgQIECAAIESCghIJWyqkggQIECAAAECBAgQaE1AQGrNzVEECBAgQIAAAQIECJRQQEAq
-YVOVRIAAAQIECBAgQIBAawIDWzus/4565plnws033xw6OzvDhAkTwtixY/vvxoxMgAABAgQI
-ECBAgACBbgJt9QrSV77ylXDEEUeERx55JEyfPj0cdthh4bbbbus2XVcJECBAgAABAgQIECDQ
-fwJt8wrSww8/HG666abw05/+NKy33npZxaeffnr47ne/G3bZZZf+EzAyAQIECBAgQIAAAQIE
-Xhdom1eQ/vKXv4QjjzyyKxzF+W2//fbhueeeCytXrtQwAgQIECBAgAABAgQI9LtA27yC9K53
-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
-AgQIECBAgAABAgQaEhCQGmKyEwECBAgQIECAAAECKQgISCl0WY0ECBAgQIAAAQIECDQkICA1
-xGQnAgQIECBAgAABAgRSEBCQUuiyGgkQIECAAAECBAgQaEhAQGqIyU4ECBAgQIAAAQIECKQg
-ICCl0GU1EiBAgAABAgQIECDQkICA1BCTnQgQIECAAAECBAgQSEFAQEqhy2okQIAAAQIECBAg
-QKAhAQGpISY7ESBAgAABAgQIECCQgoCAlEKX1UiAAAECBAgQIECAQEMCAlJDTHYiQIAAAQIE
-CBAgQCAFAQEphS6rkQABAgQIECBAgACBhgQEpIaY7ESAAAECBAgQIECAQAoCAlIKXVYjAQIE
-CBAgQIAAAQINCQhIDTHZiQABAgQIECBAgACBFAQEpBS6rEYCBAgQIECAAAECBBoSEJAaYrIT
-AQIECBAgQIAAAQIpCAhIKXRZjQQIECBAgAABAgQINCQgIDXEZCcCBAgQIECAAAECBFIQEJBS
-6LIaCRAgQIAAAQIECBBoSEBAaojJTgQIECBAgAABAgQIpCAgIKXQZTUSIECAAAECBAgQINCQ
-gIDUEJOdCBAgQIAAAQIECBBIQUBASqHLaiRAgAABAgQIECBAoCEBAakhJjsRIECAAAECBAgQ
-IJCCgICUQpfVSIAAAQIECBAgQIBAQwICUkNMdiJAgAABAgQIECBAIAUBASmFLquRAAECBAgQ
-IECAAIGGBASkhpjsRIAAAQIECBAgQIBACgICUgpdViMBAgQIECBAgAABAg0JCEgNMdmJAAEC
-BAgQIECAAIEUBASkFLqsRgIECBAgQIAAAQIEGhIQkBpishMBAgQIECBAgAABAikICEgpdFmN
-BAgQIECAAAECBAg0JCAgNcRkJwIECBAgQIAAAQIEUhAQkFLoshoJECBAgAABAgQIEGhIQEBq
-iMlOBAgQIECAAAECBAikICAgpdBlNRIgQIAAAQIECBAg0JCAgNQQk50IECBAgAABAgQIEEhB
-QEBKoctqJECAAAECBAgQIECgIYGBDe21Gnd64oknwq233hrWWWedMGHChLDmmmuuxlt3UwQI
-ECBAgAABAgQIpCzQVq8g/dd//Vc47LDDwqxZs8JVV10VPvnJT4a//OUvKfdH7QQIECBAgAAB
-AgQIrEaBtglI8ZWjadOmhfPOOy98/etfD9///vfDGmusEa688srVyOGmCBAgQIAAAQIECBBI
-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
-LOndu3eaxgsvySGHHBKe9Yx84vfTJF7oSnbdddfkiy++SNMVPbG6XnLJJSHPAw44INlrr73C
-+UEHHZR44S7N6u2330622WabpHv37qFe4LD22msnXrhJqI+RF64SL/Qku+22W9KzZ89k3333
-DflRDy9Yhvp5oS7cB+errrrKHg3H+++/P2AHfqeddlpCOUh33XXXtUlX5MfTTz8dnvV7kdLk
-WUy9IBzqQDnPPPPMZIcddgi/77rrrvDMqFGjQntShiOPPDIZMWJEmpdOhIAQEAJCoDoCrvot
-3RECQkAICIFGQsCEBm8VSr7//vtQdG8tCYIBTLK3BCV//vlnuD537tzAgPsN/GkVvaUp8ZaX
-ZMmSJem1pUuXJtttt12yzz77JH7Df3geoemcc85J03AyefLkkJ+3uoTrWWbeBBnea4Rwtv32
-2weBza4VPVpdKZu32qSPXXbZZaEcr7zySnqtb9++QTD0UeDSaz/88EMQeBBijBCQsgKNt5SF
-awiW7733XkjqLWPJwQcfHIRHe9ZbtIJwdNxxxyXeWmWXE7//Jzz/2muvpdeKnOQJSCtXrgxC
-3pVXXplmh1CIsAQm3loXro8ZMya8/8cff0zT6UQICAEhIARqI6Aodn41FAkBISAEuhICuMR5
-y0yoEq5x3noQzkePHu28FSWct7a2huOyZcvC0TPQwVWLZwkGYITb1vXXX+8+//xzt2jRovD8
-WWed5Z5//nnnhS1L5ubMmRPc0XCby9Iff/wRXOuOOOIId/rpp6e3cUHDVe2tt95yn376aXq9
-zAnudF54Sx+hbBAhsiG/BLqbbrrJvfDCC84LDuEa/3baaSfnhbhVorvhMnfbbbel6XBZg7xA
-6LwFLJyvu+66wb0Ol8XffvstXLvvvvuCS+ENN9zQxm1x+PDhjvRTp04N6Try31prreW89c39
-9NNPIVt+00ZeOHbeQtaRr1JeQkAICIGmQkB7kJqquVVZISAEmgEB7x7WpprevSww6d4FK71u
-+37YZwSxrwiKhaNwwf9DkIDYv9OvXz938cUXu1mzZoX9L+xp+fLLL8M+IG9FCumy/9gvhKDi
-rR5h31N8H8EM+uabb9x+++0X3yp0vscee7RJt+2224bf7KWCEHj69+8f9h0988wzoazeKuY+
-+uijcB4LTaQHI++eyGkgsINM4Aw//L8sfuTJu9jHxB6umLybY6hffG11z71Fyw0bNiyE8PYu
-kM5bwtwpp5ziCAXurVurm72eFwJCQAg0NQKyIDV186vyQkAIdEUEttpqq1WqlbUoILDEZJaQ
-TTfdNL4czs3qxDd1IO+y5hBMCAgBYT3CSlItlPSvv/4a0hE4AStH/IcV6eyzz3Yw/O0hhI+Y
-EFKguH6UjyALfp9OCFJBgIiLLrqooiBRCTvy8/urOKQU589F6uj3dYV0cf04J0jG4Ycfnj7b
-USd33nlnCE6BFQ5L4Lhx44KVi7opel1Hoax8hIAQaEYE2s74zYiA6iwEhIAQaGIEjNEnqhuE
-e1aW7JoPhJDeGjx4sLv11ltD5LhHH33U+aAEbVzL0oT+xCxauOs98sgj8a0QKS8rvLVJsJo/
-fPAI5/c/OcqOBQmBzIiodlZ/u1b2aM9TR6LzjR07NkSTi/NBWMkKWPH99p5j/eNjvFiOKAeR
-B31AiBCBD8se1j6REBACQkAIlEdAFqTymOkJISAEhECXQ2Dvvfd2W2yxRXCdM6bfKklocCgW
-kLBSkI6PkGK9wO2uGiE89OjRI7jk4WYXE1Yn9knZnqH4Xkec40qHgMLep1g4wu0Pt76OsrQQ
-8htC6IqJvVVY4K655pr48mqff/zxx84Hy3B33313yAvLGSHOfWS98NsHpAhHEz4JuS4SAkJA
-CAiBYghIQCqGk1IJASEgBLo0AjDxuGjx7R++mcQ3f/i+0OWXX+7mzZvnbr/99vRbSABBkAMf
-Cjzst0H4wY2sGuF+N3HiRMe+IPbIEEjAR4RzBDDgWz18tym7x6daXmWv+xDdwf3Ph/N2PmR2
-EMQef/xxd8IJJwRXPwJNZAXCsu8gPTghZLIP65577gnBE7CsEdwBbPluVEcSwioWojvuuCMI
-SZ988ol77LHHggWL92FVghB6ofHjx7vnnnsunOufEBACQkAI1EZALna18dFdISAEhEDTIOBD
-RocPrBK1ziLf4Rbnv6sTAgJkgcBq5MNpOz6kmudCRhr/faCQT2tra8iKZ3B/62jhIS4ne49w
-60No4cOwfFyVQA4Ig7ioEQXPfycp/bhq/GyZc4RABD8+jIubm1mm9txzzyC4WLCHMnnmpcV6
-hCvdtddeG5JiReLDvnwkmA/eQkT14wOz/L366qtBQA039E8ICAEhIASqItDNa87a7tStmlQ3
-hIAQEAJCoFkQ8N8JCqGi48h3HVV33L8ICtHS0hLcxDoq37x82I9EoAmsX51JuLN99913IdId
-+FngiM56JwEiCPUNntWCXfjvYYXofATKEAkBISAEhEBtBCQg1cZHd4WAEBACQkAICAEhIASE
-gBBoIgTkYtdEja2qCgEhIATqGYFp06aFgA95ZcRKwgdZG426ev0arT1UXiEgBIRANQQkIFVD
-RteFgBAQAkJgjSKA612RaHZEvWtE6ur1a8Q2UZmFgBAQApUQkItdJVR0TQgIASEgBISAEBAC
-QkAICIGmREBhvpuy2VVpISAEhIAQEAJCQAgIASEgBCohIAGpEiq6JgSEgBAQAkJACAgBISAE
-hEBTIiABqSmbXZUWAkJACAgBISAEhIAQEAJCoBICEpAqoaJrQkAICAEhIASEgBAQAkJACDQl
-AhKQmrLZVWkhIASEgBAQAkJACAgBISAEKiEgAakSKromBISAEBACQkAICAEhIASEQFMi8D83
-OIgoMjkssAAAAABJRU5ErkJggg=="
+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
+QIDAoARGDOroih586KGHVrSyfMqaOnVqPsWqlACBtgX8O982Wc8d0Mm/8/rec21se0Kd9L3t
+G3FA9gJeQcr+LgCAAAECBAgQIECAAIGagIBUk3BNgAABAgQIECBAgED2Aj0XkGbOnBmXX355
+3H777bF06dLsGwSAAAECBAgQIECAAIGVJ9BTn0E67bTT4tprr41ddtklfvKTn8ScOXPiG9/4
+RkycOHHlibglAgQIECBAgAABAgSyFeiZV5AeeOCBuOqqq+LUU0+Nk046KS666KIYOXJkXHzx
+xdk2R+EECBAgQIAAAQIECKxcgZ4JSAsXLiwqX3fddYvrvr6+mDRpUsydO3flirg1AgQIECBA
+gAABAgSyFeiZt9htuummsfXWW8fpp58eBx54YKRXlKZPnx7pbXf1l9tuuy3OOOOMfquPOeaY
+4vh+Ky1kKzB+/Phsa8+5cH3v3/30RFO6jBkzJlZZZZX+Gy0RKLmAx3vJG9jh9PW9P9zw4cOL
+FWuuuabP7venabi0aNGihuvrV/ZMQBo2bFgceeSRceyxx8YXvvCFmDdvXuyzzz4NQ89zzz0X
+t956a79aZs+eHaNGjeq3zkK+Au4Lefa+k77vueeeeWJVqOqf//znFapGKa0KdPJ4b3Vs+/Wu
+QCd99+987/az1Zmt7H/neyYg3XLLLUU4OuGEE+Ktb31rzJgxo3j16JRTTokvfvGL/fwmT54c
+d999d791KTQ98cQT/dZZyFfAfSHP3uu7vucpkGfVHu/6nqdAnlV36/GeXnGrfZznpSR75jNI
+v/rVr2LLLbeMvffeuzg5wyabbBLvfe9747rrrivOZldfRCpw+f/qt1smQIAAAQIECBAgQIBA
+uwI9E5DSW+rGjh3bb/4pAKX3Cs6fP7/fegsECBAgQIAAAQIECBAYCoGeCUjpbXPpbXZXX311
+LFmyJB588MG45JJLYtttt4211lprKGo3JgECBAgQIECAAAECBPoJ9MxnkN74xjfGUUcdVZzF
+7stf/nJxkoYdd9wx0meSXAgQIECAAAECBAgQILAyBHomIKVi991333jnO98ZTz75ZIwbN644
+Ne3KQHAbBAgQIECAAAECBAgQSAI9FZDShNLpvidOnJh+dCFAgAABAgQIECBAgMBKFeiZzyCt
+1KrdGAECBAgQIECAAAECBBoICEgNUKwiQIAAAQIECBAgQCBPAQEpz76rmgABAgQIECBAgACB
+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
+3XfHySef3Ou1mR8BAgQIECBAgAABAgTaEmgpIC0/4gEHHFAsLl68OGofdEqvLl177bXxxBNP
+xF577RVrr7328of4mQABAgQIECBAgAABAqUQ6OiLYr/61a/GK17xiuJEDKnKww47LN785jfH
++973vthwww3jrrvuKkXxJkmAAAECBAgQIECAAIHlBdoOSNddd1188pOfjHXXXTfSOclvvfXW
+SKf+3m233eLyyy+PjTbaqAhKy9+InwkQIECAAAECBAgQIFAGgbbfYpdO4/3yl788fve738Ww
+YcOK7z1KhZ5xxhmx/fbbFydySK8kzZo1K1ZfffUyGJgjAQIECBAgQIAAAQIECoG2X0G67777
+Yueddy7CURrhqquuigkTJsR2221XDLjlllvG0qVL46GHHiqW/Y8AAQIECBAgQIAAAQJlEWg7
+IKUTMNx7771FfemkDLfddlvsscce0dfXV6y75ppriuv0KpMLAQIECBAgQIAAAQIEyiTQdkDa
+c889Y/r06fHRj3403vOe9xSvFh100EGRzmqX3mb3pS99KXbcccdYZ511yuRgrgQIECBAgAAB
+AgQIEIi2P4P0rne9Kz7+8Y/HOeecU7zN7rjjjitO7Z0C0kknnVSczS6d5c6FAAECBAgQIECA
+AAECZRNoOyClEzOcffbZceqppxa11k7EkL4T6cYbb4xtttmmbAbmS4AAAQIECBAgQIAAgUKg
+7YBUc6sFo9pyuhaOltfwMwECBAgQIECAAAECZRNoGpAef/zx4iQM6cx15513XvHWunPPPbdp
+nelzSi4ECBAgQIAAAQIECBAok0DTgJTeUrfaaqvFqquuWtQ1atSoYrlMRZorAQIECBAgQIAA
+AQIEWhFoGpBe9rKXFZ8tqg12xBFHRPrPhQABAgQIECBAgAABAlUTaPs031UDUA8BAgQIECBA
+gAABAgRqAgJSTcI1AQIECBAgQIAAAQLZCzR9i92TTz4Z73znO9uGSqf8diFAgAABAgQIECBA
+gECZBJoGpCVLlsTs2bPLVJO5EiBAgAABAgQIECBAoCOBpgFp4sSJ8fvf/76jwdNBN998c8ya
+NSsmT57c8RgOJECAAAECBAgQIECAwMoQaBqQBjuJK6+8MmbMmCEgDRbS8QQIECBAgAABAgQI
+DLmAkzQMObEbIECAAAECBAgQIECgLAICUlk6ZZ4ECBAgQIAAAQIECAy5gIA05MRugAABAgQI
+ECBAgACBsggISGXplHkSIECAAAECBAgQIDDkAgLSkBO7AQIECBAgQIAAAQIEyiIgIJWlU+ZJ
+gAABAgQIECBAgMCQCwhIQ07sBggQIECAAAECBAgQKIuAgFSWTpknAQIECBAgQIAAAQJDLiAg
+DTmxGyBAgAABAgQIECBAoCwCIwYz0TvvvDPuu+++WH311eNtb3tbzJgxIzbccMN+Qx566KEx
+d+7cfussECBAgAABAgQIECBAoBcFOnoF6e67747ddtsttt5669hvv/1i6tSpRW1p+fOf/3zM
+nz9/Wa2bbLJJbLXVVsuW/UCAAAECBAgQIECAAIFeFWj7FaQXXngh9t5771i4cGF88pOfjN/+
+9rdFbYsXL44999wzpkyZEo899licf/75vVqzeREgQIAAAQIECBAgQKChQNuvIJ133nnx/PPP
+xw033BBnnHFGTJo0qRh4+PDhcemll8axxx4bF110UcyePbvhDVpJgAABAgQIECBAgACBXhVo
+OyDdfvvtsfvuu8cGG2zQsKYDDzwwFi1aFA899FDD7VYSIECAAAECBAgQIECgVwXaDkhjxoyJ
+9BmkFV3mzJlTbBo/fvyKdrGeAAECBAgQIECAAAECPSnQdkDaYYcdijPXXXHFFQMKSp9POuWU
+U2LixInxspe9bMB2KwgQIECAAAECBAgQINDLAm2fpCGdtjt9DmnfffeNnXbaKVIoGj16dBx0
+0EGRQlM6pfdll13WyzWbGwECBAgQIECAAAECBBoKtB2QRowYEdOmTYsTTjghLrzwwliyZEkx
+8C233BIvf/nLi/C0//77N7wxKwkQIECAAAECBAgQINDLAm0HpFTMhAkTitN4n3nmmXH//ffH
+008/HRtvvHHx38iRI3u5XnMjQIAAAQIECBAgQIDACgXa/gxSOoX3pz/96WLAcePGxfbbbx97
+7bVXbLrpppHC0ZVXXhkbbrhh8Va7Fd6qDQQIECBAgAABAgQIEOhBgZZeQXrqqadiwYIFxfTT
+ab5vuumm4stg6+tJ+6S33z388MMxb9684rNJ9ftYJkCAAAECBAgQIECAQK8KtBSQpk6dGscf
+f3y/GmpfENtv5V8Xttlmm1hrrbUabbKOAAECBAgQIECAAAECPSvQUkA65phjii9/XbhwYfzq
+V7+KGTNmxCGHHDKgqHQChxSM9ttvvwHbrCBAgAABAgQIECBAgECvC7QUkNJni0488cSils02
+26z4otiTTz6512szPwIECBAgQIAAAQIECLQl0FJAWn7EAw44YPnFAT8vXbo0rr/++th1110H
+bLOCAAECBAgQIECAAAECvSzQdkBKxVxwwQVxzjnnxJ///OdIb7tLlxSMFi1aFLNmzSrWpWUX
+AgQIECBAgAABAgQIlEmg7dN8X3fddXH44YfHnXfeWZzOe+bMmZFO2JC+G+nFF1+MYcOGxbnn
+nlsmA3MlQIAAAQIECBAgQIBAIdB2QPrpT39ahKA//elPxVvptthii9h///1j+vTpcdddd8V6
+660Xw4cPx0uAAAECBAgQIECAAIHSCbQdkB588MHYaaedileNUrXbbrtt3HjjjUXhm2yySXz5
+y1+Ok046qXQQJkyAAAECBAgQIECAAIG2A1I6jffo0aOXyW266aaRvjy2dtl5552LzyY9+uij
+tVWuCRAgQIAAAQIECBAgUAqBtgNSOs33DTfcEOmzR+mS3mL30EMPxcMPP1wsp7fZpc8hpVOD
+uxAgQIAAAQIECBAgQKBMAm0HpPe///3FK0ivfvWr49e//nVMnjw5xo4dG+9+97vjtNNOi499
+7GPFW/DSZ5FcCBAgQIAAAQIECBAgUCaBtgNSOlvdFVdcUXz2aN68eZHecpfOWve73/0uPvvZ
+z8YjjzwSRx99dJkMzJUAAQIECBAgQIAAAQKFQNvfg/TUU0/FRhttVLx6VPuuo4MPPjj22GOP
+4rNIW265Zay//vp4CRAgQIAAAQIECBAgUDqBtl9BOv/882ODDTaIe++9N/r6+pYVnN5St+ee
+ewpHy0T8QIAAAQIECBAgQIBA2QTaDkh/+MMfihq9SlS2VpsvAQIECBAgQIAAAQLNBNoOSB/9
+6Edj/Pjx8bnPfS7SZ5BcCBAgQIAAAQIECBAgUBWBtj+DlE7CkD5ndNZZZ8XXvva14i11KTDV
+X2699db6VZYJECBAgAABAgQIECDQ0wJtB6R0kobnnnsuttlmm2WFLVmyZNnPfiBAgAABAgQI
+ECBAgEBZBdoOSB/60Ici/edCgAABAgQIECBAgACBqgm0/RmkdgFuvvnmuOaaa9o9zP4ECBAg
+QIAAAQIECBBY6QJtv4LU7gyvvPLKmDFjRkyePLndQ+1PgAABAgQIECBAgACBlSow5K8grdRq
+3BgBAgQIECBAgAABAgQGISAgDQLPoQQIECBAgAABAgQIVEtAQKpWP1VDgAABAgQIECBAgMAg
+BASkQeA5lAABAgQIECBAgACBagkISNXqp2oIECBAgAABAgQIEBiEgIA0CDyHEiBAgAABAgQI
+ECBQLQEBqVr9VA0BAgQIECBAgAABAoMQEJAGgedQAgQIECBAgAABAgSqJSAgVaufqiFAgAAB
+AgQIECBAYBACIwZxbNx5551x3333xeqrrx5ve9vbYsaMGbHhhhv2G/LQQw+NuXPn9ltngQAB
+AgQIECBAgAABAr0o0NErSHfffXfstttusfXWW8d+++0XU6dOLWpLy5///Odj/vz5y2rdZJNN
+Yquttlq27AcCBAgQIECAAAECBAj0qkDbAemFF16IvffeOx588MH45Cc/GTvttFNR2+LFi2PP
+PfeMKVOmxEc+8pFB13vLLbfE1VdfPehxDECAAAECBAgQIECAAIFWBdoOSOedd148//zzccMN
+N8QZZ5wRkyZNKm5r+PDhcemll8axxx4bF110UcyePbvVOQzYb+bMmXHSSSfFL3/5ywHbrCBA
+gAABAgQIECBAgMBQCbQdkG6//fbYfffdY4MNNmg4pwMPPDAWLVoUDz30UMPtzVYuWbKkeBWq
+r6+v2a62EyBAgAABAgQIECBAoKsCbQekMWPGRPoM0oouc+bMKTaNHz9+Rbu85Prvf//7kcLR
+5MmTX3I/GwkQIECAAAECBAgQINBtgbbPYrfDDjvEd77znbjiiiviXe96V7/5pM8nnXLKKTFx
+4sR42cte1m9bKwv33ntvpICUxr/44otXeMhNN90Up556ar/tn/3sZ+N1r3tdv3UW8hVYZ511
+8i0+48r1Pc/m67u+5ymQZ9Ue7/o+GIH0LrdWLm0HpHTa7vQ5pH333bc4QUMKRaNHj46DDjqo
+CE3plN6XXXZZK7fdb5905rt0goePfvSjTcNVuo36t/Cl40eMaLucfnOwUB0B94Xq9LKdSvS9
+Ha3q7Kvv1ellO5Xoezta1dlX36vTy3Yq6Vbf00d5Wrm0nSjSBKdNmxYnnHBCXHjhhVG7oXTW
+uZe//OVFeNp///1bue1++5xzzjnFdyjttdde/dY3WvjHf/zH4juYlt/2zDPPxJNPPrn8Kj9n
+LOC+kGfz9V3f8xTIs2qPd33PUyDPqrv1eE8nlVt33XWbIrYdkNKIEyZMiPPPPz/OPPPMuP/+
+++Ppp5+OjTfeuPhv5MiRTW+0fod01rr0lr30fUnHH398sTmdRnzBggXF8mc+85kYN25c/WGW
+CRAgQIAAAQIECBAg0FWBjgJSbQYptGy//fa1xY6v01v0Dj/88H7HP/vss8WpwrfYYovoJHT1
+G8wCAQIECBAgQIAAAQIEWhBoGpAef/zx2GOPPWLnnXcu3j6X3gp37rnnNh16+vTpTfep7bDG
+GmvEBz7wgdpicf3UU09F+q9+fb+dLBAgQIAAAQIECBAgQKCLAk0D0rBhw2K11VaLVVddtbjZ
+UaNGFctdnIOhCBAgQIAAAQIECBAg0BMCTQNSOl33jTfeuGyyRxxxRKT/hvryqU99aqhvwvgE
+CBAgQIAAAQIECBDoJ9D2F8V+/etfj6OOOipuv/32fgNZIECAAAECBAgQIECAQNkF2g5Iq6yy
+SvEZpPSlrNtss02cffbZxVnsyg5h/gQIECBAgAABAgQIEGg7IB155JHx2GOPxde+9rXii1k/
+8YlPxMSJE+Pd7353/PSnP41Wv6EWPQECBAgQIECAAAECBHpNoO2AlApIX7B09NFHR/py2Lvv
+vjvS54XSz29/+9tj/fXXj09/+tO9Vqf5ECBAgAABAgQIECBAoKlARwFp+VE333zzOO200+Lm
+m28uvssofdPt6aefvvwufiZAgAABAgQIECBAgEApBJqexe6lqnjxxRfjRz/6UVx88cVxzTXX
+xNKlS+Ntb3tbHHrooS91mG0ECBAgQIAAAQIECBDoSYG2A1L6jNEvfvGLIhT9+Mc/jjlz5sQm
+m2wSp5xySvGlrpMmTerJQk2KAAECBAgQIECAAAECzQTaDkinnnpqEYbGjh0b+++/f/Fq0W67
+7dbsdmwnQIAAAQIECBAgQIBAzwu0HZC22GKLOP/884twtNpqq/V8gSZIgAABAgQIECBAgACB
+VgXaDkjpVaN0SW+1u/rqq+Pee++NhQsXFt+JlL4Xady4ca3etv0IECBAgAABAgQIECDQUwJt
+B6Q0+1tvvTUOOeSQmD59+oBi0hntPvOZzwxYbwUBAgQIECBAgAABAgR6XaDtgPTcc8/FO97x
+juIVpLPOOit23HHHSG+1e+ihh+KCCy6IE088MVZdddU45phjer128yNAgAABAgQIECBAgEA/
+gbYD0re//e1IIem2226Lf/iHf1g22Gtf+9rYZ5994sgjj4xzzz1XQFom4wcCBAgQIECAAAEC
+BMoi0PYXxd5xxx2x++679wtHyxf7wQ9+MO6///54/PHHl1/tZwIECBAgQIAAAQIECPS8QNsB
+afjw4bFgwYIVFlbbtnjx4hXuYwMBAgQIECBAgAABAgR6UaDtgLTddtvFr3/967jpppsG1LN0
+6dL4yle+Euuss06sv/76A7ZbQYAAAQIECBAgQIAAgV4WaPszSIcffnikkzOkt9kdccQRscMO
+O8Qaa6xRnKThwgsvLD6blE7W4EKAAAECBAgQIECAAIGyCbQdkEaPHh2/+c1v4rDDDouvf/3r
+/epda6214pxzzolDDz2033oLBAgQIECAAAECBAgQKINA2wEpFTVx4sS46qqr4tFHH40//OEP
+8cwzz8SrXvWq2HzzzYtTfpehcHMkQIAAAQIECBAgQIBAvUBHAak2SHo1KZ3eu3aZPXt2pP/S
+Zb311qutdk2AAAECBAgQIECAAIFSCLQdkNKJGI466qiYOnXqsjDUqNK0nwsBAgQIECBAgAAB
+AgTKJNB2QEqfP/r3f//3eP3rXx9vfOMbixM0lKlgcyVAgAABAgQIECBAgMCKBNoOSN/73vfi
+la98Zdxwww0xcuTIFY1rPQECBAgQIECAAAECBEon0Pb3IK266qoxbtw44ah0rTZhAgQIECBA
+gAABAgSaCbQdkPbbb7/4/e9/H7fcckuzsW0nQIAAAQIECBAgQIBAqQTafovdTjvtFOedd15M
+njw5DjjggNhoo41ixIiBwxx//PGlgjBZAgQIECBAgAABAgQIDEw2TUweeeSROPPMM2PWrFnx
+ne98Z4V7C0grpLGBAAECBAgQIECAAIEeFWg7IF188cVx1113xUknnRR77713TJgwoUdLMy0C
+BAgQIECAAAECBAi0J9B2QLrjjjtiq622iilTprR3S/YmQIAAAQIECBAgQIBAjwu0fZKG173u
+dS/5BbE9Xq/pESBAgAABAgQIECBAYIUCbQek97///bF06dI47rjjYt68eSsc2AYCBAgQIECA
+AAECBAiUTaDtt9hdf/31MXHixDjjjDOKkzWkn9dee+3o6+vrV3t6K54LAQIECBAgQIAAAQIE
+yiTQdkB69tlnY8GCBbH99tuXqU5zJUCAAAECBAgQIECAQFOBtgPSBz/4wUj/uRAgQIAAAQIE
+CBAgQKBqAm1/BqlqAOohQIAAAQIECBAgQIBATUBAqkm4JkCAAAECBAgQIEAgewEBKfu7AAAC
+BAgQIECAAAECBGoCAlJNwjUBAgQIECBAgAABAtkLCEjZ3wUAECBAgAABAgQIECBQExCQahKu
+CRAgQIAAAQIECBDIXkBAyv4uAIAAAQIECBAgQIAAgZqAgFSTcE2AAAECBAgQIECAQPYCAlL2
+dwEABAgQIECAAAECBAjUBASkmoRrAgQIECBAgAABAgSyFxCQsr8LACBAgAABAgQIECBAoCYg
+INUkXBMgQIAAAQIECBAgkL2AgJT9XQAAAQIECBAgQIAAAQI1AQGpJuGaAAECBAgQIECAAIHs
+BQSk7O8CAAgQIECAAAECBAgQqAkISDUJ1wQIECBAgAABAgQIZC8gIGV/FwBAgAABAgQIECBA
+gEBNQECqSbgmQIAAAQIECBAgQCB7AQEp+7sAAAIECBAgQIAAAQIEagICUk3CNQECBAgQIECA
+AAEC2QsISNnfBQAQIECAAAECBAgQIFATEJBqEq4JECBAgAABAgQIEMheQEDK/i4AgAABAgQI
+ECBAgACBmoCAVJNwTYAAAQIECBAgQIBA9gICUvZ3AQAECBAgQIAAAQIECNQEBKSahGsCBAgQ
+IECAAAECBLIXEJCyvwsAIECAAAECBAgQIECgJiAg1SRcEyBAgAABAgQIECCQvYCAlP1dAAAB
+AgQIECBAgAABAjUBAakm4ZoAAQIECBAgQIAAgewFBKTs7wIACBAgQIAAAQIECBCoCQhINQnX
+BAgQIECAAAECBAhkLyAgZX8XAECAAAECBAgQIECAQE1AQKpJuCZAgAABAgQIECBAIHsBASn7
+uwAAAgQIECBAgAABAgRqAgJSTcI1AQIECBAgQIAAAQLZCwhI2d8FABAgQIAAAQIECBAgUBMQ
+kGoSrgkQIECAAAECBAgQyF5AQMr+LgCAAAECBAgQIECAAIGagIBUk3BNgAABAgQIECBAgED2
+AgJS9ncBAAQIECBAgAABAgQI1ARG1H4o+3VfX18MHz687GWYf5cE3Be6BFmyYfS9ZA3r0nT1
+vUuQJRtG30vWsC5NV9+7BFmyYbrV92HDWnttqDIBadSoUTF27NiStdt0h0pgzTXXHKqhjdvD
+Avrew80Zwqnp+xDi9vDQ+t7DzRnCqen7EOL28NDd6vvixYtbqrIyAWn+/Pkxa9asloq2U/UF
+nn322eoXqcIBAvo+gCSLFfqeRZsHFKnvA0iyWKHvWbR5QJHd6nt6JWrMmDEDxq9f0drrTPVH
+WSZAgAABAgQIECBAgEAFBQSkCjZVSQQIECBAgAABAgQIdCYgIHXm5igCBAgQIECAAAECBCoo
+ICBVsKlKIkCAAAECBAgQIECgMwEBqTM3RxEgQIAAAQIECBAgUEEBAamCTVUSAQIECBAgQIAA
+AQKdCQhInbk5igABAgQIECBAgACBCgoISBVsqpIIECBAgAABAgQIEOhMQEDqzM1RBAgQIECA
+AAECBAhUUEBAqmBTlUSAAAECBAgQIECAQGcCAlJnbo4iQIAAAQIECBAgQKCCAgJSBZuqJAIE
+CBAgQIAAAQIEOhMQkDpzcxQBAgQIECBAgAABAhUUEJAq2FQlESBAgAABAgQIECDQmYCA1Jmb
+owgQIECAAAECBAgQqKCAgFTBpiqJAAECBAgQIECAAIHOBASkztwcRYAAAQIECBAgQIBABQUE
+pAo2VUkECBAgQIAAAQIECHQmICB15uYoAgQIECBAgAABAgQqKCAgVbCpSiJAgAABAgQIECBA
+oDMBAakzN0cRIECAAAECBAgQIFBBAQGpgk1VEgECBAgQIECAAAECnQkISJ25OYoAAQIECBAg
+QIAAgQoKCEgVbKqSCBAgQIAAAQIECBDoTEBA6szNUQQIECBAgAABAgQIVFBAQKpgU5VEgAAB
+AgQIECBAgEBnAgJSZ26OIkCAAAECBAgQIECgggICUgWbqiQCBAgQIECAAAECBDoTEJA6c3MU
+AQIECBAgQIAAAQIVFBCQKthUJREgQIAAAQIECBAg0JmAgNSZm6MIECBAgAABAgQIEKiggIBU
+waYqiQABAgQIECBAgACBzgQEpM7cHEWAAAECBAgQIECAQAUFBKQKNlVJBAgQIECAAAECBAh0
+JiAgdebmKAIECBAgQIAAAQIEKiggIFWwqUoiQIAAAQIECBAgQKAzAQGpMzdHESBAgAABAgQI
+ECBQQQEBqYJNVRIBAgQIECBAgAABAp0JCEiduTmKAAECBAgQIECAAIEKCghIFWyqkggQIECA
+AAECBAgQ6ExAQOrMzVEECBAgQIAAAQIECFRQQECqYFOVRIAAAQIECBAgQIBAZwICUmdujiJA
+gAABAgQIECBAoIICAlIFm6okAgQIECBAgAABAgQ6ExCQOnNzFAECBAgQIECAAAECFRQQkCrY
+VCURIECAAAECBAgQINCZgIDUmZujCBAgQIAAAQIECBCooICAVMGmKokAAQIECBAgQIAAgc4E
+BKTO3BxFgAABAgQIECBAgEAFBQSkCjZVSQQIECBAgAABAgQIdCYgIHXm5igCBAgQIECAAAEC
+BCooICBVsKlKIkCAAAECBAgQIECgMwEBqTM3RxEgQIAAAQIECBAgUEEBAamCTVUSAQIECBAg
+QIAAAQKdCQhInbk5igABAgQIECBAgACBCgoISBVsqpIIECBAgAABAgQIEOhMQEDqzM1RBAgQ
+IECAAAECBAhUUEBAqmBTlUSAAAECBAgQIECAQGcCAlJnbo4iQIAAAQIECBAgQKCCAgJSBZuq
+JAIECBAgQIAAAQIEOhMQkDpzcxQBAgQIECBAgAABAhUUEJAq2FQlESBAgAABAgQIECDQmYCA
+1JmbowgQIECAAAECBAgQqKCAgFTBpiqJAAECBAgQIECAAIHOBASkztwcRYAAAQIECBAgQIBA
+BQUEpAo2VUkECBAgQIAAAQIECHQmICB15uYoAgQIECBAgAABAgQqKCAgVbCpSiJAgAABAgQI
+ECBAoDMBAakzN0cRIECAAAECBAgQIFBBAQGpgk1VEgECBAgQIECAAAECnQkISJ25OYoAAQIE
+CBAgQIAAgQoKCEgVbKqSCBAgQIAAAQIECBDoTEBA6szNUQQIECBAgAABAgQIVFBAQKpgU5VE
+gAABAgQIECBAgEBnAgJSZ26OIkCAAAECBAgQIECgggICUgWbqiQCBAgQIECAAAECBDoTGNHZ
+YUN31OOPPx7XXXddDB8+PHbeeeeYOHHi0N2YkQkQIECAAAECBAgQILCcQE+9gvS5z30uDjnk
+kLjvvvti2rRpcfDBB8cNN9yw3HT9SIAAAQIECBAgQIAAgaET6JlXkO6999649tpr4wc/+EGs
+u+66RcWnnHJKfP3rX4+ddtpp6ASMTIAAAQIECBAgQIAAgb8K9MwrSH/5y1/isMMOWxaO0vy2
+3XbbePLJJ2Pp0qUaRoAAAQIECBAgQIAAgSEX6JlXkN7whjdE+m/5y//+7//G5ptvHn19fcuv
+jpkzZ8Ytt9zSb13ab6211uq3zkK+Aquuumq+xWdcub7n2Xx91/c8BfKs2uNd31eGQM8EpPpi
+L7vssrjjjjviW9/6Vv2muOuuu+LYY4/ttz7tt/HGG/dbZyFfAWE5z97ru76J5prBAAA2nklE
+QVTnKZBn1R7v+p6nQJ5Vd+vxvmDBgpYAezIgXXDBBXHJJZfEl770pdh0000HFPLqV786Tjzx
+xH7r09nunn/++X7rLOQr4L6QZ+/1Xd/zFMizao93fc9TIM+qu/l4HzVqVFPEngpIS5YsiTPP
+PDOuvvrqOOOMM4rPIDWqYP31148PfOAD/TY988wzMWfOnH7rLOQr4L6QZ+/1Xd/zFMizao93
+fc9TIM+qu/V4T18j1MqlpwLSlClTirfVnXvuud4u10r37EOAAAECBAgQIECAQFcFeiYgXXXV
+VcUrR8cdd1zMmjWrCEq1Sl/zmtcUXxxbW3ZNgAABAgQIECBAgACBoRDomYD0wx/+sKjv9NNP
+H1DnL37xixgzZsyA9VYQIECAAAECBAgQIECgmwI9E5DOP//8btZlLAIECBAgQIAAAQIECLQt
+0DNfFNv2zB1AgAABAgQIECBAgACBLgsISF0GNRwBAgQIECBAgAABAuUVEJDK2zszJ0CAAAEC
+BAgQIECgywICUpdBDUeAAAECBAgQIECAQHkFBKTy9s7MCRAgQIAAAQIECBDosoCA1GVQwxEg
+QIAAAQIECBAgUF4BAam8vTNzAgQIECBAgAABAgS6LCAgdRnUcAQIECBAgAABAgQIlFdAQCpv
+78ycAAECBAgQIECAAIEuCwhIXQY1HAECBAgQIECAAAEC5RUQkMrbOzMnQIAAAQIECBAgQKDL
+AgJSl0ENR4AAAQIECBAgQIBAeQUEpPL2zswJECBAgAABAgQIEOiygIDUZVDDESBAgAABAgQI
+ECBQXgEBqby9M3MCBAgQIECAAAECBLosICB1GdRwBAgQIECAAAECBAiUV0BAKm/vzJwAAQIE
+CBAgQIAAgS4LCEhdBjUcAQIECBAgQIAAAQLlFRCQyts7MydAgAABAgQIECBAoMsCAlKXQQ1H
+gAABAgQIECBAgEB5BQSk8vbOzAkQIECAAAECBAgQ6LKAgNRlUMMRIECAAAECBAgQIFBeAQGp
+vL0zcwIECBAgQIAAAQIEuiwgIHUZ1HAECBAgQIAAAQIECJRXQEAqb+/MnAABAgQIECBAgACB
+LgsISF0GNRwBAgQIECBAgAABAuUVEJDK2zszJ0CAAAECBAgQIECgywICUpdBDUeAAAECBAgQ
+IECAQHkFBKTy9s7MCRAgQIAAAQIECBDosoCA1GVQwxEgQIAAAQIECBAgUF4BAam8vTNzAgQI
+ECBAgAABAgS6LCAgdRnUcAQIECBAgAABAgQIlFdAQCpv78ycAAECBAgQIECAAIEuCwhIXQY1
+HAECBAgQIECAAAEC5RUQkMrbOzMnQIAAAQIECBAgQKDLAgJSl0ENR4AAAQIECBAgQIBAeQUE
+pPL2zswJECBAgAABAgQIEOiygIDUZVDDESBAgAABAgQIECBQXgEBqby9M3MCBAgQIECAAAEC
+BLosICB1GdRwBAgQIECAAAECBAiUV0BAKm/vzJwAAQIECBAgQIAAgS4LCEhdBjUcAQIECBAg
+QIAAAQLlFRCQyts7MydAgAABAgQIECBAoMsCAlKXQQ1HgAABAgQIECBAgEB5BQSk8vbOzAkQ
+IECAAAECBAgQ6LKAgNRlUMMRIECAAAECBAgQIFBeAQGpvL0zcwIECBAgQIAAAQIEuiwgIHUZ
+1HAECBAgQIAAAQIECJRXQEAqb+/MnAABAgQIECBAgACBLgsISF0GNRwBAgQIECBAgAABAuUV
+EJDK2zszJ0CAAAECBAgQIECgywICUpdBDUeAAAECBAgQIECAQHkFBKTy9s7MCRAgQIAAAQIE
+CBDosoCA1GVQwxEgQIAAAQIECBAgUF4BAam8vTNzAgQIECBAgAABAgS6LCAgdRnUcAQIECBA
+gAABAgQIlFdAQCpv78ycAAECBAgQIECAAIEuCwhIXQY1HAECBAgQIECAAAEC5RUQkMrbOzMn
+QIAAAQIECBAgQKDLAgJSl0ENR4AAAQIECBAgQIBAeQUEpPL2zswJECBAgAABAgQIEOiygIDU
+ZVDDESBAgAABAgQIECBQXgEBqby9M3MCBAgQIECAAAECBLosICB1GdRwBAgQIECAAAECBAiU
+V0BAKm/vzJwAAQIECBAgQIAAgS4LCEhdBjUcAQIECBAgQIAAAQLlFRCQyts7MydAgAABAgQI
+ECBAoMsCAlKXQQ1HgAABAgQIECBAgEB5BQSk8vbOzAkQIECAAAECBAgQ6LKAgNRlUMMRIECA
+AAECBAgQIFBeAQGpvL0zcwIECBAgQIAAAQIEuiwgIHUZ1HAECBAgQIAAAQIECJRXQEAqb+/M
+nAABAgQIECBAgACBLgsISF0GNRwBAgQIECBAgAABAuUVEJDK2zszJ0CAAAECBAgQIECgywIC
+UpdBDUeAAAECBAgQIECAQHkFRpR36v1nPmrUqBgzZkz/lZayFRg3bly2tedcuL7n2X191/c8
+BfKs2uNd3wcjsHjx4pYOr0xAWrRoUcyfP7+lou1UfYHZs2dXv0gVDhDQ9wEkWazQ9yzaPKBI
+fR9AksUKfc+izQOK7Fbf+/r6YrXVVhswfv2KygSkJUuWxMKFC+vrs5ypgPtCno3Xd33PUyDP
+qj3e9T1PgTyr7tbjffjw4S0B+gxSS0x2IkCAAAECBAgQIEAgBwEBKYcuq5EAAQIECBAgQIAA
+gZYEBKSWmOxEgAABAgQIECBAgEAOAgJSDl1WIwECBAgQIECAAAECLQkISC0x2YkAAQIECBAg
+QIAAgRwEBKQcuqxGAgQIECBAgAABAgRaEhCQWmKyEwECBAgQIECAAAECOQgISDl0WY0ECBAg
+QIAAAQIECLQkICC1xGQnAgQIECBAgAABAgRyEBCQcuiyGgkQIECAAAECBAgQaElAQGqJyU4E
+CBAgQIAAAQIECOQgICDl0GU1EiBAgAABAgQIECDQkoCA1BKTnQgQIECAAAECBAgQyEFAQMqh
+y2okQIAAAQIECBAgQKAlAQGpJSY7ESBAgAABAgQIECCQg4CAlEOX1UiAAAECBAgQIECAQEsC
+AlJLTHYiQIAAAQIECBAgQCAHAQEphy6rkQABAgQIECBAgACBlgQEpJaY7ESAAAECBAgQIECA
+QA4CAlIOXVYjAQIECBAgQIAAAQItCQhILTHZiQABAgQIECBAgACBHAQEpBy6rEYCBAgQIECA
+AAECBFoSEJBaYrITAQIECBAgQIAAAQI5CAhIOXRZjQQIECBAgAABAgQItCQgILXEZCcCBAgQ
+IECAAAECBHIQEJBy6LIaCRAgQIAAAQIECBBoSUBAaonJTgQIECBAgAABAgQI5CAgIOXQZTUS
+IECAAAECBAgQINCSgIDUEpOdCBAgQIAAAQIECBDIQUBAyqHLaiRAgAABAgQIECBAoCUBAakl
+JjsRIECAAAECBAgQIJCDgICUQ5fVSIAAAQIECBAgQIBASwICUktMdiJAgAABAgQIECBAIAcB
+ASmHLquRAAECBAgQIECAAIGWBASklpjsRIAAAQIECBAgQIBADgICUg5dViMBAgQIECBAgAAB
+Ai0JCEgtMdmJAAECBAgQIECAAIEcBASkHLqsRgIECBAgQIAAAQIEWhIQkFpishMBAgQIECBA
+gAABAjkICEg5dFmNBAgQIECAAAECBAi0JCAgtcRkJwIECBAgQIAAAQIEchAQkHLoshoJECBA
+gAABAgQIEGhJQEBqiclOBAgQIECAAAECBAjkICAg5dBlNRIgQIAAAQIECBAg0JKAgNQSk50I
+ECBAgAABAgQIEMhBQEDKoctqJECAAAECBAgQIECgJQEBqSUmOxEgQIAAAQIECBAgkIOAgJRD
+l9VIgAABAgQIECBAgEBLAgJSS0x2IkCAAAECBAgQIEAgBwEBKYcuq5EAAQIECBAgQIAAgZYE
+BKSWmOxEgAABAgQIECBAgEAOAgJSDl1WIwECBAgQIECAAAECLQkISC0x2YkAAQIECBAgQIAA
+gRwEBKQcuqxGAgQIECBAgAABAgRaEhCQWmKyEwECBAgQIECAAAECOQgISDl0WY0ECBAgQIAA
+AQIECLQkICC1xGQnAgQIECBAgAABAgRyEBCQcuiyGgkQIECAAAECBAgQaElAQGqJyU4ECBAg
+QIAAAQIECOQgICDl0GU1EiBAgAABAgQIECDQkoCA1BKTnQgQIECAAAECBAgQyEFAQMqhy2ok
+QIAAAQIECBAgQKAlAQGpJSY7ESBAgAABAgQIECCQg4CAlEOX1UiAAAECBAgQIECAQEsCAlJL
+THYiQIAAAQIECBAgQCAHAQEphy6rkQABAgQIECBAgACBlgQEpJaY7ESAAAECBAgQIECAQA4C
+AlIOXVYjAQIECBAgQIAAAQItCQhILTHZiQABAgQIECBAgACBHAQEpBy6rEYCBAgQIECAAAEC
+BFoSEJBaYrITAQIECBAgQIAAAQI5CAhIOXRZjQQIECBAgAABAgQItCQgILXEZCcCBAgQIECA
+AAECBHIQEJBy6LIaCRAgQIAAAQIECBBoSUBAaonJTgQIECBAgAABAgQI5CAgIOXQZTUSIECA
+AAECBAgQINCSwIiW9lqJOz388MPx29/+NtZee+3YeeedY7XVVluJt+6mCBAgQIAAAQIECBDI
+WaCnXkH6z//8zzj44IPj7rvvjssvvzw+/OEPx1/+8pec+6N2AgQIECBAgAABAgRWokDPBKT0
+ytHUqVPj7LPPji9+8YvxzW9+M1ZZZZW47LLLViKHmyJAgAABAgQIECBAIGeBnglIN910U0yc
+ODG22Waboh8jRoyIPffcM375y1/m3B+1EyBAgAABAgQIECCwEgV65jNITzzxRLziFa/oV3oK
+TE8//XQsWbIkhg37W5ZLn1H63Oc+12/fKVOmxA477NBvnYV8BSZMmJBv8RlXru95Nl/f9T1P
+gTyr9njX98EILFq0qKXDeyYgPfnkk7HGGmv0m/Tqq69ehKPnn38+1lprrWXbUmCaO3fusuX0
+w9KlS6Ovr6/fuk4Xfvazn3V6aCmOGz58eOGVHF3+JpBD31PP02PF5W8C+v43i5x+qnLf0+/C
+9KSix/vAe3QOfV+8ePHAwjNfo++Z3wGWK7/VrNAzAWnkyJFRn+pqy2PGjFmutIhddtmlONPd
+8iufeeaZ+POf/7z8Kj83EEi/NNdbb72YP3++E2A08KnqqvSW1fSs27x58yI94eCSh8CoUaNi
+/PjxMXv27HjxxRfzKFqVMXr06Bg3blzMmjUr5syZQyQTgbFjxxZPNKd/49PveJc8BNKLC6n3
+6aRmCxcuzKPoQVSZXiRYd911m47wt/etNd11aHdYZ511in/Ml7+VF154oXjlKJ2swYUAAQIE
+CBAgQIAAAQJDLdAzAemVr3xl3HPPPf1eRbrrrrsGfC5pqEGMT4AAAQIECBAgQIBAvgI9E5De
+8pa3FF245JJLivdN//GPf4xp06YV34uUb3tUToAAAQIECBAgQIDAyhTomc8gpbfRpTPRnXLK
+KZFCUnoP9b777hs777zzyvRwWwQIECBAgAABAgQIZCzQMwEp9WDbbbeNK6+8MmbOnFl8oHz5
+U3tn3COlEyBAgAABAgQIECCwkgR6KiDVak5nWXMhQIAAAQIECBAgQIDAyhbomc8grezC3R4B
+AgQIECBAgAABAgTqBQSkehHLBAgQIECAAAECBAhkKyAgZdt6hRMgQIAAAQIECBAgUC8gINWL
+WCZAgAABAgQIECBAIFsBASnb1iucAAECBAgQIECAAIF6AQGpXsQyAQIECBAgQIAAAQLZCghI
+2bZe4QQIECBAgAABAgQI1AsISPUilgkQIECAAAECBAgQyFZAQMq29QonQIAAAQIECBAgQKBe
+QECqF7FMgAABAgQIECBAgEC2AgJStq1XOAECBAgQIECAAAEC9QICUr2IZQIECBAgQIAAAQIE
+shUQkLJtvcIJECBAgAABAgQIEKgXEJDqRSwTIECAAAECBAgQIJCtgICUbesVToAAAQIECBAg
+QIBAvYCAVC9imQABAgQIECBAgACBbAUEpGxbr3ACBAgQIECAAAECBOoFBKR6EcsECBAgQIAA
+AQIECGQrICBl23qFEyBAgAABAgQIECBQLyAg1YtYJkCAAAECBAgQIEAgWwEBKdvWK5wAAQIE
+CBAgQIAAgXoBAalexDIBAgQIECBAgAABAtkKCEjZtl7hBAgQIECAAAECBAjUCwhI9SKWCRAg
+QIAAAQIECBDIVkBAyrb1CidAgAABAgQIECBAoF5AQKoXsUyAAAECBAgQIECAQLYCAlK2rVc4
+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
+IASEgBAQAkJACAgBISAESiIgAakkYEouBISAEBAC+QjwRXc+FClqHwJ8y47IY3zXzkiYGhI6
+CgEhIAQ6FwEJSJ2Lr3IXAkJACDQlAgMHDnQnnXRSU9a9Iyq9YMEC19LS4hYuXJhm1x5M+YDk
+hAkTHB8mFwkBISAEhEAxBPSh2GI4KZUQEAJCQAiUQKBPnz5trB8lHlXSKgi0B9OJEye6kSNH
+uvPPP79KrrosBISAEBACWQQkIGUR0W8hIASEgBBYbQSmTJmy2nkog7YItAdTPhYqEgJCQAgI
+gXIISEAqh5dSCwEhIATqFoFvv/3WPfzww27o0KHunXfecfPnz3cwyCeffLI744wz3F9//eUe
+fPDBcO+oo45ygwYNcltvvXWb+vz9999uxowZ7v3333f//vuv23///d2ll17qNt9885DuiSee
+cF999ZW7+eabV/kQ6bRp09w///wT3v/AAw84Pk45ZMiQNH/K8tBDD7l3333XscfmwAMPDHlv
+ttlmaZqiJ1bXq6++2n3wwQfupZdecr/88os79NBD3RVXXOE23HDDNlnhYjZ79mz39ddfuxUr
+Vrjdd9/dDRgwwB1zzDFpuunTp7stt9zSHX300SHthx9+GOp/wQUXuJ133tktXrzYPfXUU8Ey
+dt555zkw7NatW/o8J5999pl78sknA0a77LJLeMfxxx/fJk17f2Qx5cOPzz77rHv55Zfd77//
+7nr16uVOPfXUtE601RtvvBFeN2nSpID3hRde2N7X6zkhIASEQPMgkIiEgBAQAkKgSyDgBaLE
+r16JZ+iTDTbYIPHMf7LRRhuFa976kHjGP9lkk03C9fXXXz/c84EA0rovX7488ftekvXWWy85
+8cQTEy9AJBtvvHGy4447Jl5gCulmzpwZ8nvxxRfT5zj5+eefk3XWWSfxAku4fthhhyW9e/dO
+03jhJTnkkEPCs56RT/x+msQLXcmuu+6afPHFF2m6oidW10suuSTkecABByR77bVXOD/ooIMS
+L9ylWb399tvJNttsk3Tv3j3UCxzWXnvtxAs3CfUx8sJV4oWeZLfddkt69uyZ7LvvviE/6uEF
+y1A/L9SF++B81VVX2aPheP/99wfswO+0005LKAfprrvuujbpivx4+umnw7N+L1KaPIupF4RD
+HSjnmWeemeywww7h91133RWeGTVqVGhPynDkkUcmI0aMSPPSiRAQAkJACFRHwFW/pTtCQAgI
+ASHQSAiY0OCtQsn3338fiu6tJUEwgEn2lqDkzz//DNfnzp0bGHC/gT+torc0Jd7ykixZsiS9
+tnTp0mS77bZL9tlnn8Rv+A/PIzSdc845aRpOJk+eHPLzVpdwPcvMmyDDe40QzrbffvsgsNm1
+okerK2XzVpv0scsuuyyU45VXXkmv9e3bNwiGPgpceu2HH34IAg9CjBECUlag8ZaycA3B8r33
+3gtJvWUsOfjgg4PwaM96i1YQjo477rjEW6vscuL3/4TnX3vttfRakZM8AWnlypVByLvyyivT
+7BAKEZbAxFvrwvUxY8aE9//4449pOp0IASEgBIRAbQQUxc6vhiIhIASEQFdCAJc4b5kJVcI1
+zlsPwvno0aOdt6KE89bW1nBctmxZOHoGOrhq8SzBAIxw27r++uvd559/7hYtWhSeP+uss9zz
+zz/vvLBlydycOXOCOxpuc1n6448/gmvdEUcc4U4//fT0Ni5ouKq99dZb7tNPP02vlznBnc4L
+b+kjlA0iRDbkl0B30003uRdeeMF5wSFc499OO+3kvBC3SnQ3XOZuu+22NB0ua5AXCJ23gIXz
+ddddN7jX4bL422+/hWv33XdfcCm84YYb2rgtDh8+3JF+6tSpIV1H/ltrrbWct765n376KWTL
+b9rIC8fOW8g68lXKSwgIASHQVAhoD1JTNbcqKwSEQDMg4N3D2lTTu5cFJt27YKXXbd8P+4wg
+9hVBsXAULvh/CBIQ+3f69evnLr74Yjdr1qyw/4U9LV9++WXYB+StSCFd9h/7hRBUvNUj7HuK
+7yOYQd98843bb7/94luFzvfYY4826bbddtvwm71UEAJP//79w76jZ555JpTVW8XcRx99FM5j
+oYn0YOTdEzkNBHaQCZzhh/+XxY88eRf7mNjDFZN3cwz1i6+t7rm3aLlhw4aFEN7eBdJ5S5g7
+5ZRTHKHAvXVrdbPX80JACAiBpkZAFqSmbn5VXggIga6IwFZbbbVKtbIWBQSWmMwSsummm8aX
+w7lZnfimDuRd1hyCCQEhIKxHWEmqhZL+9ddfQzoCJ2DliP+wIp199tkOhr89hPARE0IKFNeP
+8hFkwe/TCUEqCBBx0UUXVRQkKmFHfn5/FYeU4vy5SB39vq6QLq4f5wTJOPzww9NnO+rkzjvv
+DMEpsMJhCRw3blywclE3Ra/rKJSVjxAQAs2IQNsZvxkRUJ2FgBAQAk2MgDH6RHWDcM/Kkl3z
+gRDSW4MHD3a33npriBz36KOPOh+UoI1rWZrQn5hFC3e9Rx55JL4VIuVlhbc2CVbzhw8e4fz+
+J0fZsSAhkBkR1c7qb9fKHu156kh0vrFjx4ZocnE+CCtZASu+395zrH98jBfLEeUg8qAPCBEi
+8GHZw9onEgJCQAgIgfIIyIJUHjM9IQSEgBDocgjsvffebosttgiuc8b0WyUJDQ7FAhJWCtLx
+EVKsF7jdVSOEhx49egSXPNzsYsLqxD4p2zMU3+uIc1zpEFDY+xQLR7j94dbXUZYWQn5DCF0x
+sbcKC9w111wTX17t848//tj5YBnu7rvvDnlhOSPEuY+sF377gBThaMInIddFQkAICAEhUAwB
+CUjFcFIqISAEhECXRgAmHhctvv3DN5P45g/fF7r88svdvHnz3O23355+CwkgCHLgQ4GH/TYI
+P7iRVSPc7yZOnOjYF8QeGQIJ+IhwjgAGfKuH7zZl9/hUy6vsdR+iO7j/+XDezofMDoLY448/
+7k444YTg6kegiaxAWPYdpAcnhEz2Yd1zzz0heAKWNYI7gC3fjepIQljFQnTHHXcEIemTTz5x
+jz32WLBg8T6sShBCLzR+/Hj33HPPhXP9EwJCQAgIgdoIyMWuNj66KwSEgBBoGgR8yOjwgVWi
+1lnkO9zi/Hd1QkCALBBYjXw4bceHVPNcyEjjvw8U8mltbQ1Z8Qzubx0tPMTlZO8Rbn0ILXwY
+lo+rEsgBYRAXNaLg+e8kpR9XjZ8tc44QiODHh3FxczPL1J577hkEFwv2UCbPvLRYj3Clu/ba
+a0NSrEh82JePBPPBW4iofnxglr9XX301CKjhhv4JASEgBIRAVQS6ec1Z2526VZPqhhAQAkJA
+CDQLAv47QSFUdBz5rqPqjvsXQSFaWlqCm1hH5ZuXD/uRCDSB9aszCXe27777LkS6Az8LHNFZ
+7yRABKG+wbNasAv/PawQnY9AGSIhIASEgBCojYAEpNr46K4QEAJCQAgIASEgBISAEBACTYSA
+XOyaqLFVVSEgBIRAPSMwbdq0EPAhr4xYSfgga6NRV69fo7WHyisEhIAQqIaABKRqyOi6EBAC
+QkAIrFEEcL0rEs2OqHeNSF29fo3YJiqzEBACQqASAnKxq4SKrgkBISAEhIAQEAJCQAgIASHQ
+lAgozHdTNrsqLQSEgBAQAkJACAgBISAEhEAlBCQgVUJF14SAEBACQkAICAEhIASEgBBoSgQk
+IDVls6vSQkAICAEhIASEgBAQAkJACFRCQAJSJVR0TQgIASEgBISAEBACQkAICIGmREACUlM2
+uyotBISAEBACQkAICAEhIASEQCUEJCBVQkXXhIAQEAJCQAgIASEgBISAEGhKBP4HjgSIJp9t
+Yb8AAAAASUVORK5CYII="
 >
 </div>
 
 </div>
 
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Save-movie_2017-into-database">Save movie_2017 into database<a class="anchor-link" href="#Save-movie_2017-into-database">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[262]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span><span class="s">&quot;RSQLite&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[263]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span>drv <span class="o">&lt;-</span> dbDriver<span class="p">(</span><span class="s">&quot;SQLite&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[264]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span>conn <span class="o">&lt;-</span> dbConnect<span class="p">(</span>drv<span class="p">,</span><span class="s">&quot;movie.sqlite&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[265]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span>dbListTables<span class="p">(</span>conn<span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[267]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span>dbWriteTable<span class="p">(</span>conn<span class="p">,</span> <span class="s">&quot;Movies_2017&quot;</span><span class="p">,</span> df_movie<span class="p">,</span>row.names<span class="o">=</span><span class="kc">FALSE</span><span class="p">,</span>append<span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[268]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span>dbDisconnect<span class="p">(</span>conn<span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[269]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span>drv <span class="o">&lt;-</span> dbDriver<span class="p">(</span><span class="s">&quot;SQLite&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[270]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span>conn <span class="o">&lt;-</span> dbConnect<span class="p">(</span>drv<span class="p">,</span><span class="s">&quot;movie.sqlite&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[271]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span>dbListTables<span class="p">(</span>conn<span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+'Movies_2017'
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[273]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span>dbReadTable<span class="p">(</span>conn<span class="p">,</span><span class="s">&quot;Movies_2017&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<table>
+<thead><tr><th scope=col>movie_name_list</th><th scope=col>movie_rate_list</th><th scope=col>movie_vote_list_revise</th><th scope=col>movie_time_list</th></tr></thead>
+<tbody>
+	<tr><td>Coco                                   </td><td>8.5                                    </td><td>130,673                                </td><td>105 min                                </td></tr>
+	<tr><td>Blade Runner 2049                      </td><td>8.1                                    </td><td>263,525                                </td><td>164 min                                </td></tr>
+	<tr><td>Paddington 2                           </td><td>8.1                                    </td><td>17,648                                 </td><td>103 min                                </td></tr>
+	<tr><td>Logan                                  </td><td>8.1                                    </td><td>460,394                                </td><td>137 min                                </td></tr>
+	<tr><td>Thor: Ragnarok                         </td><td>8.0                                    </td><td>270,827                                </td><td>130 min                                </td></tr>
+	<tr><td>Dunkirk                                </td><td>8.0                                    </td><td>366,012                                </td><td>106 min                                </td></tr>
+	<tr><td>Wind River                             </td><td>7.8                                    </td><td>108,518                                </td><td>107 min                                </td></tr>
+	<tr><td>Get Out                                </td><td>7.7                                    </td><td>279,178                                </td><td>104 min                                </td></tr>
+	<tr><td>Baby Driver                            </td><td>7.7                                    </td><td>278,392                                </td><td>112 min                                </td></tr>
+	<tr><td>Guardians of the Galaxy Vol. 2         </td><td>7.7                                    </td><td>350,934                                </td><td>136 min                                </td></tr>
+	<tr><td>I, Tonya                               </td><td>7.6                                    </td><td>60,714                                 </td><td>120 min                                </td></tr>
+	<tr><td>The Disaster Artist                    </td><td>7.6                                    </td><td>61,917                                 </td><td>104 min                                </td></tr>
+	<tr><td>Wonder Woman                           </td><td>7.5                                    </td><td>387,338                                </td><td>141 min                                </td></tr>
+	<tr><td>It                                     </td><td>7.5                                    </td><td>256,186                                </td><td>135 min                                </td></tr>
+	<tr><td>Spider-Man: Homecoming                 </td><td>7.5                                    </td><td>291,337                                </td><td>133 min                                </td></tr>
+	<tr><td>Molly's Game                           </td><td>7.5                                    </td><td>36,089                                 </td><td>140 min                                </td></tr>
+	<tr><td>John Wick: Chapter 2                   </td><td>7.5                                    </td><td>219,322                                </td><td>122 min                                </td></tr>
+	<tr><td>War for the Planet of the Apes         </td><td>7.5                                    </td><td>160,785                                </td><td>140 min                                </td></tr>
+	<tr><td>Star Wars: Episode VIII - The Last Jedi</td><td>7.4                                    </td><td>332,882                                </td><td>152 min                                </td></tr>
+	<tr><td>Shot Caller                            </td><td>7.4                                    </td><td>42,224                                 </td><td>121 min                                </td></tr>
+	<tr><td>Beauty and the Beast                   </td><td>7.3                                    </td><td>201,274                                </td><td>129 min                                </td></tr>
+	<tr><td>Good Time                              </td><td>7.3                                    </td><td>33,148                                 </td><td>101 min                                </td></tr>
+	<tr><td>The LEGO Batman Movie                  </td><td>7.3                                    </td><td>96,065                                 </td><td>104 min                                </td></tr>
+	<tr><td>American Made                          </td><td>7.2                                    </td><td>89,433                                 </td><td>115 min                                </td></tr>
+	<tr><td>Marshall                               </td><td>7.2                                    </td><td>7,828                                  </td><td>118 min                                </td></tr>
+	<tr><td>Jumanji: Welcome to the Jungle         </td><td>7.1                                    </td><td>101,888                                </td><td>119 min                                </td></tr>
+	<tr><td>Logan Lucky                            </td><td>7.1                                    </td><td>72,775                                 </td><td>118 min                                </td></tr>
+	<tr><td>Goodbye Christopher Robin              </td><td>7.1                                    </td><td>8,974                                  </td><td>107 min                                </td></tr>
+	<tr><td>The Foreigner                          </td><td>7.1                                    </td><td>55,621                                 </td><td>113 min                                </td></tr>
+	<tr><td>The Man Who Invented Christmas         </td><td>7.1                                    </td><td>3,065                                  </td><td>104 min                                </td></tr>
+	<tr><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td></tr>
+	<tr><td>The LEGO Ninjago Movie        </td><td>6.0                           </td><td>12,008                        </td><td>101 min                       </td></tr>
+	<tr><td>Jigsaw                        </td><td>5.9                           </td><td>38,558                        </td><td>92 min                        </td></tr>
+	<tr><td>Smurfs: The Lost Village      </td><td>5.9                           </td><td>12,562                        </td><td>90 min                        </td></tr>
+	<tr><td>Maze                          </td><td>5.9                           </td><td>1,285                         </td><td>92 min                        </td></tr>
+	<tr><td>All Eyez on Me                </td><td>5.8                           </td><td>14,456                        </td><td>139 min                       </td></tr>
+	<tr><td>Downsizing                    </td><td>5.7                           </td><td>30,295                        </td><td>135 min                       </td></tr>
+	<tr><td>47 Meters Down                </td><td>5.7                           </td><td>28,428                        </td><td>89 min                        </td></tr>
+	<tr><td>The Dark Tower                </td><td>5.7                           </td><td>83,307                        </td><td>95 min                        </td></tr>
+	<tr><td>2:22                          </td><td>5.7                           </td><td>11,998                        </td><td>98 min                        </td></tr>
+	<tr><td>Baywatch                      </td><td>5.6                           </td><td>96,006                        </td><td>116 min                       </td></tr>
+	<tr><td>Fist Fight                    </td><td>5.6                           </td><td>28,079                        </td><td>91 min                        </td></tr>
+	<tr><td>The Mummy                     </td><td>5.5                           </td><td>126,503                       </td><td>110 min                       </td></tr>
+	<tr><td>A Bad Moms Christmas          </td><td>5.5                           </td><td>18,763                        </td><td>104 min                       </td></tr>
+	<tr><td>Geostorm                      </td><td>5.4                           </td><td>52,152                        </td><td>109 min                       </td></tr>
+	<tr><td>The Circle                    </td><td>5.3                           </td><td>57,954                        </td><td>110 min                       </td></tr>
+	<tr><td>The Nut Job 2: Nutty by Nature</td><td>5.3                           </td><td>3,205                         </td><td>91 min                        </td></tr>
+	<tr><td>Transformers: The Last Knight </td><td>5.2                           </td><td>92,396                        </td><td>154 min                       </td></tr>
+	<tr><td>Flatliners                    </td><td>5.2                           </td><td>21,790                        </td><td>109 min                       </td></tr>
+	<tr><td>Bullet Head                   </td><td>5.2                           </td><td>2,932                         </td><td>93 min                        </td></tr>
+	<tr><td>Rough Night                   </td><td>5.2                           </td><td>29,294                        </td><td>101 min                       </td></tr>
+	<tr><td>xXx: Return of Xander Cage    </td><td>5.2                           </td><td>67,741                        </td><td>107 min                       </td></tr>
+	<tr><td>November Criminals            </td><td>5.2                           </td><td>4,204                         </td><td>85 min                        </td></tr>
+	<tr><td>Once Upon a Time in Venice    </td><td>5.2                           </td><td>10,653                        </td><td>94 min                        </td></tr>
+	<tr><td>The Snowman                   </td><td>5.1                           </td><td>31,676                        </td><td>119 min                       </td></tr>
+	<tr><td>Unforgettable                 </td><td>5.0                           </td><td>8,503                         </td><td>100 min                       </td></tr>
+	<tr><td>Father Figures                </td><td>4.9                           </td><td>2,203                         </td><td>113 min                       </td></tr>
+	<tr><td>The Vault                     </td><td>4.8                           </td><td>6,673                         </td><td>91 min                        </td></tr>
+	<tr><td>Fifty Shades Darker           </td><td>4.6                           </td><td>69,004                        </td><td>118 min                       </td></tr>
+	<tr><td>Surf's Up 2: WaveMania        </td><td>4.6                           </td><td>1,014                         </td><td>84 min                        </td></tr>
+	<tr><td>Rings                         </td><td>4.5                           </td><td>28,864                        </td><td>102 min                       </td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[274]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-r"><pre><span></span>dbDisconnect<span class="p">(</span>conn<span class="p">)</span>
+</pre></div>
+
+</div>
 </div>
 </div>
 
