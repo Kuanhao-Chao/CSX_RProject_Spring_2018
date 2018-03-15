@@ -39,16 +39,7 @@ Let's work hard and "stick to R" !*
   1. git pull the latest week_2 file
   2. Finsish course_2 practice
   3. Learn R web crawling
-  3. add the `PChomeRCrawler.html` to README.md
-    * steps
-      1. go to your repository
-      2. press setting in the top navigation bar
-      3. Pull down to **GitHub Pages** and change to master branch(under source)
-      4. Press save
-      5. You can get the url under **GitHub Pages** ex.`https://howardchao.github.io/CSX_RProject_Spring_2018/`
-      6. Add the html file location to your url ex. `https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_example/PChomeRCrawler.html`
-      7. Add the url to README.md
-      8. Finished!!
+  4. add the `XXX.html` to README.md
  
 * At home
   1. Generate hw_1 notebook & Revision
@@ -56,13 +47,21 @@ Let's work hard and "stick to R" !*
   3. Make a self-reference *R_crawler* document of **rvest**
   4. Make a crawler notebok: crawling IMDb for the top-rated movies in 2017.(and draw a bar chart)
   5. Make a self-reference *R_crawler* document of **httr**
+  6. Crawl PTT, Send keyword to google, try to log into gmail/github (fail)
   
 * week_2 notebook
 
-[self rvest R_crawler document](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler%20document.html)
+[In course rvest practice](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_practice_crawler.html)
 
-[my IMDb movie crawler file](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler_web.html)
+[self rvest R document](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler_rvest_document.html)
+
+[self httr R document](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler_httr_document.html)
+
+[all my rvest crawling practice](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler_rvest_practice.html)
+
   
   ---
   
 ### week_3
+* Before class
+  1. Read class ptt
