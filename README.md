@@ -65,3 +65,10 @@ Let's work hard and "stick to R" !*
 ### week_3
 * Before class
   1. Read class ptt
+  
+* In class
+  1. Week_2 sharing 
+  2. co-coding : github ssh key attach to my account / github api
+  3. Learning data visualization (follow [ploty library](https://plot.ly/ggplot2/#basic-charts))
+  
+* week_3 notebook
