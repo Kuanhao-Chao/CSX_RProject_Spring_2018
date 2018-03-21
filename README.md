@@ -70,6 +70,11 @@ Let's work hard and "stick to R" !*
   1. Week_2 sharing 
   2. co-coding : github ssh key attach to my account / github api
   3. Learning data visualization (follow [ploty library](https://plot.ly/ggplot2/#basic-charts))
+
+* At home
+  1. Learn how to us ggplot2
+  2. Draw the map of Hotspot in Taipei
+  3. Use R leaflet to draw the Ubike information map (click the marker to show the name and available bikes)
   
 * week_3 notebook
 
