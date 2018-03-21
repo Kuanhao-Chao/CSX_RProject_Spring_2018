@@ -72,3 +72,10 @@ Let's work hard and "stick to R" !*
   3. Learning data visualization (follow [ploty library](https://plot.ly/ggplot2/#basic-charts))
   
 * week_3 notebook
+
+[Taipei Hotspot location](https://howardchao.github.io/CSX_RProject_Spring_2018/week_3/task_3/Taipei_Hotspot_location/Taipei_Hotspot_location.html)
+
+[Taipi Ubike map](https://howardchao.github.io/CSX_RProject_Spring_2018/week_3/task_3/NewTaipeiCity_Ubike/Ubike.html)
+
+[Taipei Ubike data](https://howardchao.github.io/CSX_RProject_Spring_2018/week_3/task_3/NewTaipeiCity_Ubike/Ubike_NewTaipei_City.html)
+
