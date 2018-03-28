@@ -95,3 +95,8 @@ Let's work hard and "stick to R" !*
   2. Learn how to draw word cloud
   3. Finish analyzing 朱立倫's post when he was running presidency.
   4. Finish homework
+  
+* week_3 notebook
+
+[朱立倫's post wordcloud](https://howardchao.github.io/CSX_RProject_Spring_2018/week_4/task_4/Facebook_api_practice.html)
+
