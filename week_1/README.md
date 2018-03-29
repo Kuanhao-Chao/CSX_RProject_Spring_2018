@@ -1,4 +1,11 @@
 ## week_1
+
+* week_1 notebook
+
+[Basic R syntax notebook html](https://howardchao.github.io/CSX_RProject_Spring_2018/week_1/self_practice_1/Basic_practice.html)
+
+[hw_1 guess number notebook html](https://howardchao.github.io/CSX_RProject_Spring_2018/week_1/hw_1/guess_number_R_notebook.html) 
+
 ### Assigment
 - course_1
     - practice_1.R
