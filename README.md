@@ -84,3 +84,19 @@ Let's work hard and "stick to R" !*
 
 [Taipei Ubike data](https://howardchao.github.io/CSX_RProject_Spring_2018/week_3/task_3/NewTaipeiCity_Ubike/Ubike_NewTaipei_City.html)
 
+  ---
+  
+### week_4
+* In class
+  1. Learn Facebook api, token, and how to grab information from other's fan's page.
+ 
+* At home
+  1. Finish homework about facebook api
+  2. Learn how to draw word cloud
+  3. Finish analyzing 朱立倫's post when he was running presidency.
+  4. Finish homework
+  
+* week_3 notebook
+
+[朱立倫's post wordcloud](https://howardchao.github.io/CSX_RProject_Spring_2018/week_4/task_4/Facebook_api_practice.html)
+
