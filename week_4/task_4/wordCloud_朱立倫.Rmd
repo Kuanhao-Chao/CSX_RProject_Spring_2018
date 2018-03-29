@@ -1,0 +1,113 @@
+---
+title: "wordCloud"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+library(NLP)
+library(tm)
+library(jiebaRD)
+library(jiebaR)
+library(RColorBrewer)
+library(wordcloud)
+library(wordcloud2)
+library(corpus)
+```
+```{r}
+getwd()
+```
+```{r}
+filenames <- list.files(getwd(), pattern="*.txt")
+```
+
+```{r}
+files <- lapply(filenames, readLines)
+```
+
+```{r}
+docs <- Corpus(VectorSource(files))
+```
+
+```{r}
+toSpace <- content_transformer(function(x, pattern) {
+  return (gsub(pattern, " ", x))}
+)
+```
+
+```{r}
+docs <- tm_map(docs,toSpace,"V1")
+docs <- tm_map(docs,toSpace,"\n")
+docs <- tm_map(docs,toSpace, "1")
+docs <- tm_map(docs,toSpace, "的")
+docs <- tm_map(docs,toSpace, "了")
+docs <- tm_map(docs,toSpace, "一個")
+docs <- tm_map(docs,toSpace, "時")
+docs <- tm_map(docs,toSpace, "及")
+docs <- tm_map(docs,toSpace, "為")
+docs <- tm_map(docs,toSpace, "是")
+docs <- tm_map(docs,toSpace, "在")
+docs <- tm_map(docs,toSpace, "就")
+docs <- tm_map(docs,toSpace, "一起")
+docs <- tm_map(docs,toSpace, "有")
+docs <- tm_map(docs,toSpace, "也")
+docs <- tm_map(docs,toSpace, "要")
+docs <- tm_map(docs,toSpace, "但")
+docs <- tm_map(docs,toSpace, "而")
+docs <- tm_map(docs,toSpace, "會")
+docs <- tm_map(docs,toSpace, "都")
+docs <- tm_map(docs,toSpace, "只")
+docs <- tm_map(docs,toSpace, "這")
+docs <- tm_map(docs,toSpace, "因")
+docs <- tm_map(docs,toSpace, "讓")
+docs <- tm_map(docs,toSpace, "與")
+docs <- tm_map(docs,toSpace, "和")
+docs <- tm_map(docs,toSpace, "等")
+docs <- tm_map(docs,toSpace, "[A-Za-z0-9]")
+#移除標點符號 (punctuation)
+#移除數字 (digits)、空白 (white space)
+docs <- tm_map(docs, removePunctuation)
+docs <- tm_map(docs, removeNumbers)
+docs <- tm_map(docs, stripWhitespace)
+```
+
+```{r}
+mixseg = worker()
+segment <- c("選舉","朱立倫","蔡英文","國民黨")
+# new_user_word(mixseg,segment)
+```
+```{r}
+jieba_tokenizer=function(d){
+  unlist(segment(d[[1]],mixseg))
+}
+```
+```{r}
+font_family <- par("family") # the previous font family
+# par(family = "黑體-繁 中黑") # change to a nice Chinese font
+seg = lapply(docs, jieba_tokenizer)
+```
+
+```{r}
+freqFrame = as.data.frame(table(unlist(seg)))
+```
+```{r}
+newdata <- freqFrame[order(-freqFrame$Freq),] 
+```
+```{r}
+selected.data = newdata[newdata$Freq >= 3, ]
+```
+
+```{r}
+#畫出文字雲
+wordcloud2(data = selected.data, size=0.5)
+```
+
