@@ -1,6 +1,13 @@
-## R_資料科學程式設計
-
 ### week_3 
+  
+* week_3 notebook
+
+[Taipei Hotspot location](https://howardchao.github.io/CSX_RProject_Spring_2018/week_3/task_3/Taipei_Hotspot_location/Taipei_Hotspot_location.html)
+
+[Taipi Ubike map](https://howardchao.github.io/CSX_RProject_Spring_2018/week_3/task_3/NewTaipeiCity_Ubike/Ubike.html)
+
+[Taipei Ubike data](https://howardchao.github.io/CSX_RProject_Spring_2018/week_3/task_3/NewTaipeiCity_Ubike/Ubike_NewTaipei_City.html)
+
 
 * Before class
   1. Read class ptt
@@ -14,12 +21,3 @@
   1. Learn how to us ggplot2
   2. Draw the map of Hotspot in Taipei
   3. Use R leaflet to draw the Ubike information map (click the marker to show the name and available bikes)
-  
-* week_3 notebook
-
-[Taipei Hotspot location](https://howardchao.github.io/CSX_RProject_Spring_2018/week_3/task_3/Taipei_Hotspot_location/Taipei_Hotspot_location.html)
-
-[Taipi Ubike map](https://howardchao.github.io/CSX_RProject_Spring_2018/week_3/task_3/NewTaipeiCity_Ubike/Ubike.html)
-
-[Taipei Ubike data](https://howardchao.github.io/CSX_RProject_Spring_2018/week_3/task_3/NewTaipeiCity_Ubike/Ubike_NewTaipei_City.html)
-

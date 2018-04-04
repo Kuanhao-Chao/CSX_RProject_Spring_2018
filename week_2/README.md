@@ -1,4 +1,16 @@
 ### week_2
+
+* week_2 notebook
+
+[In course rvest practice](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_practice_crawler.html)
+
+[self rvest R document](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler_rvest_document.html)
+
+[self httr R document](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler_httr_document.html)
+
+[all my rvest crawling practice](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler_rvest_practice.html)
+
+
 * Before class
   1. Read class ptt
   2. hw_1 revision
@@ -16,14 +28,4 @@
   4. Make a crawler notebok: crawling IMDb for the top-rated movies in 2017.(and draw a bar chart)
   5. Make a self-reference *R_crawler* document of **httr**
   6. Crawl PTT, Send keyword to google, try to log into gmail/github (fail)
-  
-* week_2 notebook
-
-[In course rvest practice](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_practice_crawler.html)
-
-[self rvest R document](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler_rvest_document.html)
-
-[self httr R document](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler_httr_document.html)
-
-[all my rvest crawling practice](https://howardchao.github.io/CSX_RProject_Spring_2018/week_2/task_2_self_practice/R_crawler_rvest_practice.html)
-
+ 
