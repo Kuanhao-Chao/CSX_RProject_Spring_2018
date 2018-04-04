@@ -98,5 +98,6 @@ Let's work hard and "stick to R" !*
   
 * week_3 notebook
 
-[朱立倫's post wordcloud](https://howardchao.github.io/CSX_RProject_Spring_2018/week_4/task_4/Facebook_api_practice.html)
+[Facebook_api練習](https://howardchao.github.io/CSX_RProject_Spring_2018/week_4/task_4/Facebook_api_practice.html)
+[朱立倫's post wordcloud](https://howardchao.github.io/CSX_RProject_Spring_2018/week_4/task_4/wordCloud_%E6%9C%B1%E7%AB%8B%E5%80%AB.html)
 
