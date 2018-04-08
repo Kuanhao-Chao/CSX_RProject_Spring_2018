@@ -1,0 +1,39 @@
+---
+title: "TF-IDF"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+getwd()
+```
+## My Question: Using harrypoter to practice TFID
+```{R}
+# Import libraries
+library(NLP)
+library(readtext)
+library(tm)
+library(jiebaR)         # Chinese text segmentation, keyword extraction and speech tagging
+library(jiebaRD)        # Chinese Text Segmentation Data for jiebaR Package.
+library(tidyverse)      # opinionated collection of R packages designed for data science
+library(stringr)        # text cleaning and regular expression
+library(harrypotter)     # provide full texts of the first seven Harry Potter books.
+library(dplyr)
+library(janeaustenr)
+```
+```{r}
+# Text tidying!
+# Tibbles are a modern take on data frames. Keep the features that have stood the test of time, and drop the features that used to be convenient but are now frustrating
+text_data_frame <- tibble(chapter = seq_along(philosophers_stone),
+                          text = philosophers_stone)              # smart way to take data frame(x and y)
+text_data_frame
+```
+```{r}
+# unnest these texts. Split A Column Into Tokens Using The Tokenizers Package
+a <- text_data_frame %>% 
+              unnest_tokens(word, text)
+```
+
+
