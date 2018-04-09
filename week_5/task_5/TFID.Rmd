@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 getwd()
 ```
-## My Question: Using harrypoter to practice TFID
+## Practicing TFID : Realization of https://uc-r.github.io/tidy_text (harry potter practice)
 ```{R}
 # Import libraries
 library(NLP)
@@ -22,6 +22,8 @@ library(stringr)        # text cleaning and regular expression
 library(harrypotter)     # provide full texts of the first seven Harry Potter books.
 library(dplyr)
 library(janeaustenr)
+library(tidytext)
+library(wordcloud2)
 ```
 ```{r}
 # Text tidying!
@@ -31,9 +33,106 @@ text_data_frame <- tibble(chapter = seq_along(philosophers_stone),
 text_data_frame
 ```
 ```{r}
-# unnest these texts. Split A Column Into Tokens Using The Tokenizers Package
-a <- text_data_frame %>% 
+# unnest these texts. "Split A Column Into Tokens", "strips all punctuation", "convert word into lowercase" Using The Tokenizers Package
+text_data_frame %>% 
               unnest_tokens(word, text)
 ```
+```{r}
+titles <- c("Philosopher's Stone", "Chamber of Secrets", "Prisoner of Azkaban",
+            "Goblet of Fire", "Order of the Phoenix", "Half-Blood Prince",
+            "Deathly Hallows")
+titles
+```
+
+```{r}
+# store the content of the book
+books_content <- list(philosophers_stone, chamber_of_secrets, prisoner_of_azkaban,
+           goblet_of_fire, order_of_the_phoenix, half_blood_prince,
+           deathly_hallows)
+```
+```{r}
+# now series is an empty data frame
+series <- tibble()
+```
+
+```{r}
+# seq_along : generate a sequence that is as long as the vector
+# difference between sequence and sequence along: https://stackoverflow.com/questions/13732062/what-are-examples-of-when-seq-along-works-but-seq-produces-unintended-results
+for(i in seq_along(titles)) { # 1 ~ 7
+  # create from column vectors
+        clean <- tibble(chapter = seq_along(books_content[[i]]),
+                        text = books_content[[i]]) %>%
+             unnest_tokens(word, text) %>%      # seperate the content into words
+          # add a new column
+             mutate(books_content = titles[i]) %>%
+          # choose the column
+             select(books_content, everything())
+        # add together! to a single data frame
+        series <- rbind(series, clean)
+}
+colnames(series) <- c("books_title", "chapter", "word")
+```
+```{r}
+series
+series$books_title <- factor(series$books_title, levels = rev(titles))
+```
+```{r}
+series
+```
+
+```{r}
+# now ~ find the word frequency
+# smart~ it has stio_words build in~ just remove those word
+# the first aproach!
+series_word_freq <- series %>%
+        anti_join(stop_words) %>%
+        count(word, sort = TRUE) %>%
+        filter(n > 20)
+series_word_freq
+```
+```{r}
+wordcloud2(data = series_word_freq, size=0.5)
+```
+## 我們可以清楚地看到，哈利波特七本書裡面，最常出現的詞彙是角色的名稱。例如：Harry, hermione, ron, snape, dumbledore, weasley ....
+```{r}
+# Find the most frequently used word in each book
+series_word_freq_each_book <- series %>%
+        anti_join(stop_words) %>%
+        group_by(books_title) %>%
+        count(word, sort = TRUE) %>%
+        top_n(10) %>%
+        ungroup() %>%
+        mutate(book = factor(books_title),
+               text_order = nrow(.):1) %>%
+        ggplot(aes(reorder(word, text_order), n, fill = book)) +
+          geom_bar(stat = "identity") +
+          facet_wrap(~ book, scales = "free_y") +
+          labs(x = "NULL", y = "Frequency") +
+          coord_flip() +
+          theme(legend.position="none")
+series_word_freq_each_book
+```
+
+```{r}
+# calculate percent of word use across all novels
+potter_pct <- series %>%
+        anti_join(stop_words) %>%
+        count(word) %>%
+        transmute(word, all_words = n / sum(n))
+
+# calculate percent of word use within each novel
+frequency <- series %>%
+        anti_join(stop_words) %>%
+        count(books_title, word) %>%
+        mutate(book_words = n / sum(n)) %>%
+        left_join(potter_pct) %>%
+        arrange(desc(book_words)) %>%
+        ungroup()
+        
+frequency
+```
+
+
+
 
 
