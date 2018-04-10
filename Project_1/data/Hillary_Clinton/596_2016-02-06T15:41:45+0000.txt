@@ -1,0 +1,2 @@
+"x"
+"1" "A message from President Bill Clinton to New Hampshire voters: \"We need you.\""
