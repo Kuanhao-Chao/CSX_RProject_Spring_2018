@@ -96,9 +96,26 @@ Let's work hard and "stick to R" !*
   3. Finish analyzing 朱立倫's post when he was running presidency.
   4. Finish homework
   
-* week_3 notebook
+* week_4 notebook
 
 [Facebook_api練習](https://howardchao.github.io/CSX_RProject_Spring_2018/week_4/task_4/Facebook_api_practice.html)
 
 [朱立倫's post wordcloud](https://howardchao.github.io/CSX_RProject_Spring_2018/week_4/task_4/wordCloud_%E6%9C%B1%E7%AB%8B%E5%80%AB.html)
 
+---
+### week_5
+* In class
+  1. Learn basic TFID skill
+  
+* At home
+  1. Finish homework about TFID
+  2. Using harry potter novel as example to practice text mining (teacher's reference link)
+  
+* week_5 notebook
+
+[TFID practice](https://howardchao.github.io/CSX_RProject_Spring_2018/week_4/task_4/Facebook_api_practice.html)
+
+---
+## Project_1
+topic : 分析美國大選期間（2016/1/1 ~ 2016/11/8)，川普和希拉蕊在臉書上的動態消息分析(貼文內容、貼文平均留言數)
+notebook : https://howardchao.github.io/CSX_RProject_Spring_2018/Project_1/TFID_Visualization_American_Presidency.html
