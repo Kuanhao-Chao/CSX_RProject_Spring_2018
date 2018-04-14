@@ -1,6 +1,6 @@
+# CSX_RProject_Spring_2018
+106-2 R data science course
 
-<<<<<<< HEAD
-=======
 ## Introduce Myself
 *Hello~ My name is 趙冠豪 ( Howard Chao ).
 It is my first time learning R~ Hope everything will be fine.
@@ -120,4 +120,3 @@ Let's work hard and "stick to R" !*
 topic : 分析美國大選期間（2016/1/1 ~ 2016/11/8)，川普和希拉蕊在臉書上的動態消息分析(貼文內容、貼文平均留言數)
 
 notebook : https://howardchao.github.io/CSX_RProject_Spring_2018/Project_1/TFID_Visualization_American_Presidency.html
->>>>>>> ba6afc9517062166c9cca6352f2a4fae8753a19a
