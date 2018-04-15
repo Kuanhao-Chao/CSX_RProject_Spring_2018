@@ -105,7 +105,7 @@ Let's work hard and "stick to R" !*
 ---
 ### week_5
 * In class
-  1. Learn basic TFID skill
+  1. Learn basic TFID skill
   
 * At home
   1. Finish homework about TFID
@@ -124,7 +124,7 @@ notebook : https://howardchao.github.io/CSX_RProject_Spring_2018/Project_1/TFID_
 ---
 ## week_7
 * In class
-  1. Share my projects
+  1. Share my projects
   2. Discuss final group project
   
 * At home
