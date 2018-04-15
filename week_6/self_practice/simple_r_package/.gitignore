@@ -1,0 +1,7 @@
+*.rda
+*~
+*.pdf
+*.pptx
+*.RData
+*.Rout
+.Rhistory

@@ -1,0 +1,9 @@
+Package: rnaseqpipline
+Type: Package
+Title: First R package
+Version: 0.1.0
+Author: Kuan-Hao, Chao <ntueeb05howard@gmail.com>
+Maintainer: Kuan-Hao, Chao <ntueeb05howard@gmail.com>
+Description: Sample package
+License: What license is it under?
+LazyData: TRUE
