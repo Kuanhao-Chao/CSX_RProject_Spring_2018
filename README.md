@@ -116,7 +116,18 @@ Let's work hard and "stick to R" !*
 [TFID practice](https://howardchao.github.io/CSX_RProject_Spring_2018/week_5/task_5/TFID.html)
 
 ---
-## Project_1
+## week_6: Project_1
 topic : 分析美國大選期間（2016/1/1 ~ 2016/11/8)，川普和希拉蕊在臉書上的動態消息分析(貼文內容、貼文平均留言數)
 
 notebook : https://howardchao.github.io/CSX_RProject_Spring_2018/Project_1/TFID_Visualization_American_Presidency.html
+
+---
+## week_7
+* In class
+  1. Share my projects
+  2. Discuss final group project
+  
+* At home
+  1. Learn basic R package
+  2. Make a simple square package
+  
