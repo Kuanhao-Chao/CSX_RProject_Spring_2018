@@ -88,7 +88,7 @@ Let's work hard and "stick to R" !*
   
 ### week_4
 * In class
-  1. Learn Facebook api, token, and how to grab information from other's fan's page.
+  1. Learn Facebook api, token, and how to grab information from other's fan's page.
  
 * At home
   1. Finish homework about facebook api
