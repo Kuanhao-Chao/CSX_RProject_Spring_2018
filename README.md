@@ -130,5 +130,6 @@ notebook : https://howardchao.github.io/CSX_RProject_Spring_2018/Project_1/TFID_
 * At home
   1. Learn basic R package
   2. Make a simple square package
-  
-
+  
+---
+## week_8
