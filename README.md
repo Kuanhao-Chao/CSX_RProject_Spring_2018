@@ -134,3 +134,9 @@ notebook : https://howardchao.github.io/CSX_RProject_Spring_2018/Project_1/TFID_
 ---
 # week_8: Project_3
 topic: 分析鐵達尼號資料，以及machine learning 來預測乘客的生存率
+
+notebook : 
+
+[鐵達尼號資料集 machine learning model testing](https://howardchao.github.io/CSX_RProject_Spring_2018/Project_3/Project%203%20Titanic%20dataset.html)
+
+[鐵達尼號資料集 分析討論](https://howardchao.github.io/CSX_RProject_Spring_2018/Project_3/titanic_dataset_discussion.html)
