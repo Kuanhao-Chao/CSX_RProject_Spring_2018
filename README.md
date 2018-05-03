@@ -131,4 +131,6 @@ notebook : https://howardchao.github.io/CSX_RProject_Spring_2018/Project_1/TFID_
   1. Learn basic R package
   2. Make a simple square package
   
-
+---
+# week_8: Project_3
+topic: 分析鐵達尼號資料，以及machine learning 來預測乘客的生存率
