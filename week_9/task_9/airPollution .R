@@ -3,6 +3,7 @@ library(dplyr)
 rawdata = read.csv(
   'AQXDaily_20170409211519.csv',
   encoding = 'UTF-8')
+rawdata
 
 df <- rawdata %>% group_by(X.U.FEFF.SiteId)
 result1 = summarise(df, mean(SO2SubIndex), mean(COSubIndex))
