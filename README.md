@@ -116,13 +116,13 @@ Let's work hard and "stick to R" !*
 [TFID practice](https://howardchao.github.io/CSX_RProject_Spring_2018/week_5/task_5/TFID.html)
 
 ---
-## week_6: Project_1
+### week_6: Project_1
 topic : 分析美國大選期間（2016/1/1 ~ 2016/11/8)，川普和希拉蕊在臉書上的動態消息分析(貼文內容、貼文平均留言數)
 
 notebook : https://howardchao.github.io/CSX_RProject_Spring_2018/Project_1/TFID_Visualization_American_Presidency.html
 
 ---
-## week_7
+### week_7
 * In class
   1. Share my projects
   2. Discuss final group project
@@ -132,7 +132,7 @@ notebook : https://howardchao.github.io/CSX_RProject_Spring_2018/Project_1/TFID_
   2. Make a simple square package
   
 ---
-# week_8: Project_3
+## week_8: Project_3
 topic: 分析鐵達尼號資料，以及machine learning 來預測乘客的生存率
 
 notebook : 
@@ -140,3 +140,10 @@ notebook :
 [鐵達尼號資料集 machine learning model testing](https://howardchao.github.io/CSX_RProject_Spring_2018/Project_3/Project%203%20Titanic%20dataset.html)
 
 [鐵達尼號資料集 分析討論](https://howardchao.github.io/CSX_RProject_Spring_2018/Project_3/titanic_dataset_discussion.html)
+
+## week_10: Project_4 
+topic: 利用 Apriori 分析關於乳癌患者存活率的分析
+
+notebook : 
+
+[利用 Apriori 分析關於乳癌患者存活率的分析](https://howardchao.github.io/CSX_RProject_Spring_2018/Project_4/project_4.html)
