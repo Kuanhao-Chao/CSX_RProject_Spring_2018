@@ -141,6 +141,13 @@ notebook :
 
 [鐵達尼號資料集 分析討論](https://howardchao.github.io/CSX_RProject_Spring_2018/Project_3/titanic_dataset_discussion.html)
 
+---
+## week_9: Kaggle report
+topic: Exploratory Analysis - Instacart，預測消費者下一次購賣
+
+[Exploratory Analysis - Instacart](https://docs.google.com/presentation/d/1yjv9bYM6HRClmiYHE1IvsMdloQwG3xxOAzeVnFD3fQY/edit#slide=id.p)
+
+---
 ## week_10: Project_4 
 topic: 利用 Apriori 分析關於乳癌患者存活率的分析
 
