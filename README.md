@@ -156,7 +156,7 @@ notebook :
 [利用 Apriori 分析關於乳癌患者存活率的分析](https://howardchao.github.io/CSX_RProject_Spring_2018/Project_4/project_4.html)
 
 ---
-## week_10: Project_4 
+## week_12: Project_5
 topic: CNN神經網路實作數字辨認
 
 notebook : 
