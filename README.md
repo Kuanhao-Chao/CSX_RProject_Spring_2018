@@ -158,6 +158,7 @@ notebook :
 ---
 ## week_10: Project_4 
 topic: CNN神經網路實作數字辨認
+
 notebook : 
 
 [神經網路實作數字辨認](https://howardchao.github.io/CSX_RProject_Spring_2018/Project_5/Neural_netwok_number_dectector.html)
