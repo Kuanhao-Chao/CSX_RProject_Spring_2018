@@ -1,0 +1,84 @@
+---
+title: "project_4"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+### Loading required packages
+```{r pkg, message=FALSE, warning=FALSE}
+require(arules)
+require(arulesViz)
+library(magrittr)
+```
+
+### Discretization
+data 裡面有四個欄位，分別是
+
+1. 年齡
+2. 記錄年份
+3. 陽性反應淋巴結數目
+4. 五年後是否存活
+
+而前三者者皆需要離散化～
+
+1. 以60為高齡分界點
+2. 以1960年為分時點，因為健保改革
+3. 分成無、1-3顆及四顆以上(有無轉移為二、三期分界)(1-3顆轉移常被歸為一類)
+```{r process}
+data <- read.csv("haberman.csv")
+
+data$X30 %<>% lapply(function(i) ifelse(i >= 60,T,F)) %>% unlist %>% as.factor()
+data$X1 %<>% cut(.,
+                 c(0,1,3,max(.)),
+                 include.lowest = T,
+                 labels = c("None","1-3","4~")) 
+data$X1.1 %<>% lapply(function(i) ifelse(i == 1,T,F)) %>% unlist %>% as.factor()
+data$X64 %<>%  lapply(function(i) ifelse(i <= 60,T,F)) %>% unlist %>% as.factor()
+
+colnames(data) <- c("is.old", "treated_after_1960", "n_axillary_nodes", "outlive_5y")
+
+knitr::kable(head(data))
+```
+
+### Apply apriori method
+標籤設定為五年後存活
+```{r aprior}
+
+rule <- apriori(data, 
+  # min support & confidence, 最小規則長度(lhs+rhs)
+  parameter=list(minlen=2, supp=0.01, conf=0.85),
+  appearance = list(default="lhs",
+                    rhs=c("outlive_5y=TRUE","outlive_5y=FALSE")
+  )
+)  
+
+sort.rule = sort(rule, by="lift")
+
+simplify = function(sort.rule){
+  subset.matrix <- as.matrix(is.subset(x=sort.rule, y=sort.rule))
+  subset.matrix[lower.tri(subset.matrix, diag=T)] <- NA
+  redundant <- colSums(subset.matrix, na.rm=T) >= 1
+  sort.rule <- sort.rule[!redundant]
+  return(sort.rule)
+}
+
+simplify(sort.rule)
+inspect(sort.rule)
+```
+
+
+### Visaulization
+從結果發現五年後存活最關鍵的是
+
+* 沒有淋巴轉移
+* 年輕的人有較高機會存活
+* 至於是否在1960以前治療似乎影響不大～
+```{r vis, warning=FALSE}
+plot(sort.rule)
+plot(sort.rule, method="graph", control=list(type="items"))
+plot(sort.rule, method="grouped")
+
+```
+
