@@ -167,7 +167,7 @@ notebook :
 ## Final project
 topic: iRenter 臺北市租金歷史資料與租金預測系統
 
-slider : https://docs.google.com/presentation/d/1nTlpXo0qPRBFUgiU1lf091g9LrFky60iWtdugIe8ngk/edit#slide=id.p
+[report slider](https://docs.google.com/presentation/d/1nTlpXo0qPRBFUgiU1lf091g9LrFky60iWtdugIe8ngk/edit#slide=id.p)
 
-shiny app : https://csplusxfinal.shinyapps.io/real_estate_prediction/
+[shiny app entry](https://csplusxfinal.shinyapps.io/real_estate_prediction/)
 
